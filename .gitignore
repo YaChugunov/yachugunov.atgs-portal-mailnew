@@ -1,0 +1,13 @@
+/_tmp/*
+/.vscode/sftp.*
+/node_modules/*
+/_assets/libs/*
+/_assets/fonts/*
+/_assets/dbconn/*
+/_assets/cron-phpscript/dbconn/*
+/_assets/css/icons/*
+/tmp/*
+.htaccess
+.editorconfig
+.gitattributes
+config.*.*

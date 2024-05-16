@@ -1,0 +1,120 @@
+#listMessages-output .message-single {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 0.5rem;
+}
+
+
+#listMessages-output .message-single.unread {
+    border: 1px solid #6C757D;
+    background-color: #2C3136;
+}
+
+#listMessages-output .message-single.unread:hover {
+    cursor: pointer;
+}
+
+#listMessages-output .message-single .msg-title {
+    font-family: "OpenSansCond", sans-serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+#listMessages-output .message-single .msg-subtext1,
+#listMessages-output .message-single .msg-subtext2,
+#listMessages-output .message-single .msg-subtext3,
+#listMessages-output .message-single .msg-specialtext,
+#listMessages-output .message-single .msg-timestamp {
+    font-size: 0.75rem;
+    color: #AAAAAA !important;
+}
+
+#listMessages-output .message-single .msg-maintext {
+    font-size: 0.85rem;
+    color: #AAAAAA !important;
+    margin-bottom: 0.25rem;
+}
+
+#listMessages-output .message-single.unread .msg-maintext {
+    font-size: 0.85rem;
+    color: #FFC107 !important;
+    margin-bottom: 0.25rem;
+}
+
+#listMessages-output .message-single.unread .msg-subtext1,
+#listMessages-output .message-single.unread .msg-subtext2,
+#listMessages-output .message-single.unread .msg-subtext3,
+#listMessages-output .message-single.unread .msg-specialtext,
+#listMessages-output .message-single.unread .msg-timestamp {
+    color: #FFFFFF !important;
+}
+
+#listMessages-output .message-single .msg-title {
+    color: #AAAAAA !important;
+}
+
+#listMessages-output .message-single.unread .msg-title {
+    color: #FFFFFF !important;
+}
+
+
+#listMessages-output .message-single .msg-link1 a,
+#listMessages-output .message-single .msg-link2 a,
+#listMessages-output .message-single.unread .msg-link1 a,
+#listMessages-output .message-single.unread .msg-link2 a {
+    font-size: 0.75rem;
+    color: #007BFF !important;
+}
+
+#listMessages-output .message-single .msg-link1 a:hover,
+#listMessages-output .message-single .msg-link2 a:hover,
+#listMessages-output .message-single.unread .msg-link1 a:hover,
+#listMessages-output .message-single.unread .msg-link2 a:hover {
+    color: #F1F1F1 !important;
+}
+
+#listMessages-output .message-single .msg-specialtext {
+    font-size: 0.8rem;
+    color: #AAAAAA !important;
+}
+
+#listMessages-output .message-single .msg-timestamp {
+    font-size: 0.75rem;
+    color: #6C757D !important;
+}
+
+#listMessages-output .message-single .msg-timestamp span.system {
+    color: #28292A !important;
+}
+
+#listMessages-output .message-single .msg-timestamp span.info {
+    color: #007BFF !important;
+}
+
+#listMessages-output .message-single .msg-timestamp span.warning {
+    color: #B35C0A !important;
+}
+
+#listMessages-output .message-single .msg-timestamp span.danger {
+    color: #6A050E !important;
+}
+
+#listMessages-output .message-single .msg-timestamp span.badge {
+    font-size: 0.65rem;
+    padding-top: 0.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #CCCCCC;
+}
+
+
+#listMessages-output .pushMsg-showall a {
+    font-size: 0.75rem;
+    color: #CCCCCC !important;
+    text-decoration: underline;
+}
+
+#listMessages-output .pushMsg-showall a:hover {
+    text-decoration: none;
+}

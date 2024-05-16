@@ -1,0 +1,70 @@
+/* Запрос найдет все записи с одинаковыми значениями в `nameshort` */
+SELECT
+    *
+FROM
+    `sp_contragents`
+WHERE
+    `nameshort` IN (
+        SELECT
+            `nameshort`
+        FROM
+            `sp_contragents`
+        GROUP BY
+            `nameshort`
+        HAVING
+            COUNT(*) > 1
+    )
+ORDER BY
+    `nameshort`
+    /* Запрос найдет все записи с одинаковыми значениями в `nameshort` */
+SELECT
+    *
+FROM
+    `sp_contragents`
+WHERE
+    `nameshort` IN (
+        SELECT
+            `nameshort`
+        FROM
+            `sp_contragents`
+        WHERE
+            `fromdb` IN ("mailbox_sp_zakazchiki", "dognet_spzakaz")
+        GROUP BY
+            `nameshort`
+        HAVING
+            COUNT(*) > 1
+    )
+    AND `fromdb` IN ("dognet_sppostav")
+ORDER BY
+    `nameshort`
+SELECT
+    *
+FROM
+    sp_contragents t2
+WHERE
+    t2.kodcontragent IN (
+        SELECT
+            inbox_docSender_kodzakaz
+        FROM
+            mailbox_incoming t1
+    )
+    AND t2.has_clone = '1'
+    AND t2.kodmain <> ""
+GROUP BY
+    t2.kodmain;
+
+UPDATE
+    mailbox_incoming t1
+SET
+    inbox_docSender_kodzakaz = (
+        SELECT
+            kodmain
+        FROM
+            sp_contragents t2
+        WHERE
+            t1.inbox_docSender_kodzakaz = t2.kodcontragent
+            AND t2.has_clone = '1'
+            AND t2.kodmain <> ""
+        GROUP BY
+            t2.kodmain
+    );

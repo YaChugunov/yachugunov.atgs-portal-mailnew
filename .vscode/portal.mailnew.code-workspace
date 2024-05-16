@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../"
+		}
+	],
+	"settings": {
+		"sftp.debug": true,
+		"sftp.downloadWhenOpenInRemoteExplorer": false,
+		"prettier.printWidth": 240,
+		"prettier.proseWrap": "never",
+		"prettier.tabWidth": 4,
+		"prettier.requireConfig": true,
+		"editor.tabSize": 4,
+		"workbench.editor.tabSizing": "shrink",
+		"editor.cursorStyle": "underline",
+		"workbench.colorCustomizations": {
+			"editor.selectionBackground": "#696868",
+			"editor.selectionForeground": "#FFFFFF",
+			"editor.inactiveSelectionBackground": "#AAAAAA",
+
+		},
+		"cSpell.language": "en,ru",
+		"formatSelectionAsHtml.printWidth": 240,
+		"better-comments.multilineComments": true,
+		"auto-close-tag.SublimeText3Mode": true,
+		"eslint.format.enable": true,
+		"prettier.useTabs": true,
+		"prettier.bracketSameLine": true,
+	}
+}

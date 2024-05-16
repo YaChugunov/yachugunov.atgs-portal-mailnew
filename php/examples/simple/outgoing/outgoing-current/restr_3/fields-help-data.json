@@ -1,0 +1,116 @@
+{
+  "data": {
+    "outbox_docAbout": {
+      "label1": "<span class=''>Тема<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='0' fieldName='popoverContent-outbox_docAbout'>Тема<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.outbox_docAbout",
+      "id": "DTE_Field_mailbox_outgoing-outbox_docAbout",
+      "popoverTitle": "Описание документа",
+      "popoverContent": "<p>Просто описание документа. Чем подробнее будет описание, тем информативнее будет запись о документе.</p>"
+    }, 
+    "outbox_docType": {
+      "label1": "<span class=''>Тип документа<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='1' fieldName='popoverContent-outbox_docType'>Тип документа<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.outbox_docType",
+      "id": "DTE_Field_mailbox_outgoing-outbox_docType",
+      "popoverTitle": "Тип документа",
+      "popoverContent": "<p><u>Общее, Информационное</u> - это обычные и стандартные типы документов для стандартных документов корпоративной переписки. Никаких принципиальных различий между этими двумя типами на текущий момент нет. На усмотрение пользователя. <u>Ответное</u> - этот тип документа используется для письма, являющегося ответом на официальный запрос, с однозначной привязкой к контрдокументу и возможной сменой типа последнего на 'Запрос ответа'. <u>Запрос ответа</u> - этот тип документа используется в случае, когда ожидается или даже требуется официальный ответ от контрагента.</p>"
+    },
+    "outbox_docSender_kodzayvtel": {
+      "label1": "<span class=''>Подписант<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='2' fieldName='popoverContent-outbox_docSender_kodzayvtel'>Подписант<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.outbox_docSender_kodzayvtel",
+      "id": "DTE_Field_mailbox_outgoing-outbox_docSender_kodzayvtel",
+      "popoverTitle": "Подписант документа",
+      "popoverContent": "<p><u>Подписант документа</u> - это официальное лицо компании, за подписью которого отправляется документ (для исходящего) или на имя которого документ получен (для входящего).</p>"
+    },
+    "toSendEmail": {
+      "label1": "<span class=''>Уведомить по email<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='3' fieldName='popoverContent-toSendEmail'>Уведомить по email<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "toSendEmail",
+      "id": "DTE_Field_toSendEmail",
+      "popoverTitle": "Уведомление по email",
+      "popoverContent": "<p>Если выставлен данный чекбокс, то при сохранении нового документа на email выбранного в списке 'Исполнитель' будет отправлено информационное письмо о том, что в системе появился документ, по которому данный пользователь является исполнителем. При входе в режим редактирования документа данный чекбокс будет снят для блокировки повторной отправки email-уведомления, но если исполнитель будет изменен, то отправка будет повторена независимо от того получал ли ее этот пользователь ранее.</p>"
+    }, 
+    "outbox_controlIspolCheckoutComment": {
+      "label1": "<span class=''>Комментарий исполнителя<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='4' fieldName='popoverContent-outbox_controlIspolCheckoutComment'>Комментарий исполнителя<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.outbox_controlIspolCheckoutComment",
+      "id": "DTE_Field_mailbox_outgoing-outbox_controlIspolCheckoutComment",
+      "popoverTitle": "Комментарий ответственного",
+      "popoverContent": "<p>Текст, который вы тут введете, будет добавлен к общему списку (чату) с комментариями по документу с соответствующей пометкой. Посмотреть все комментарии к документу можно кликнув на соответствующую иконку в столбце 'К' общей таблицы с документами. После сохранения комментария данное поле будет очищено, здесь введенный комментарий не сохраняется.</p>"
+    }, 
+    "outbox_controlIspolActive": {
+      "label1": "<span class=''>Режим контроля исполнения (КИ)<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='5' fieldName='popoverContent-outbox_controlIspolActive'>Режим контроля исполнения (КИ)<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.outbox_controlIspolActive",
+      "id": "DTE_Field_mailbox_outgoing-outbox_controlIspolActive",
+      "popoverTitle": "Режим контроля исполнения (КИ)",
+      "popoverContent": "<p>Режим контроля исполнения запускает весь набор инструментов контроля зя исполнением документа, как то: отслеживание срока исполнения (при его наличии) и email-уведомления о приближении срока исполнения или его истечения (опять же при его наличии). Рекомендуется к использованию. Вариант без дедлайна хорош для самоконтроля.</p>"
+    }, 
+    "outbox_controlIspolUseDeadline": {
+      "label1": "<span class=''>Использовать дедлайн<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='6' fieldName='popoverContent-outbox_controlIspolUseDeadline'>Использовать дедлайн<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.outbox_controlIspolUseDeadline",
+      "id": "DTE_Field_mailbox_outgoing-outbox_controlIspolUseDeadline",
+      "popoverTitle": "Использовать дедлайн",
+      "popoverContent": "<p>Устанавливает срок исполнения документа. По мере его приближения будут приходить email-уведомления (в случе если вы сделали соответствующие отметки в форме настройках документа). По умолчанию срок дедлайна устанавливается в <u>2 недели</u>.</p>"
+    }, 
+    "ispolStatus": {
+      "label1": "<span class=''>Я исполнил документ<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='7' fieldName='popoverContent-ispolStatus'>Я исполнил документ<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "ispolStatus",
+      "id": "DTE_Field_ispolStatus",
+      "popoverTitle": "Я исполнил документ",
+      "popoverContent": "<p>Чекбокс отметки об исполнении документа вами как ответственным. При этом действии рекомендуется оставлять уточняющий комментарий в соответствующем поле ниже.</p>"
+    }, 
+    "outbox_docComment": {
+      "label1": "<span class=''>Дополнительная информация<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='8' fieldName='popoverContent-outbox_docComment'>Дополнительная информация<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.outbox_docComment",
+      "id": "DTE_Field_mailbox_outgoing-outbox_docComment",
+      "popoverTitle": "Дополнительная информация",
+      "popoverContent": "<p>Это комментарий, который можно оставить к документу. После сохранения формы редактирования этот комментарий окажется в чате по документу. Удаление или изменение этого комментария здесь не изменить его в чате, а добавит новый в случае изменения, например. И наоборот, изменение или удаление этого комментария в чате не изменит и не удалит его в записи о документе.</p>"
+    }, 
+    "outbox_docRecipient_kodzakaz": {
+      "label1": "<span class=''>Организация<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='9' fieldName='popoverContent-outbox_docRecipient_kodzakaz'>Организация<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.outbox_docRecipient_kodzakaz",
+      "id": "DTE_Field_mailbox_outgoing-outbox_docRecipient_kodzakaz",
+      "popoverTitle": "Организация (Справочник)",
+      "popoverContent": "<p>Название организации-получателя документа. Начинайте вводить часть названия организации и в ниспадающем списке вам будут предложены найденные варианты.</p>"
+    }, 
+    "enblRecipientManual": {
+      "label1": "<span class=''>Ввести вручную<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='10' fieldName='popoverContent-enblRecipientManual'>Ввести вручную<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "enblRecipientManual",
+      "id": "DTE_Field_enblRecipientManual",
+      "popoverTitle": "Ввести вручную",
+      "popoverContent": "<p>Отметив этот чекбокс вы можете ввести название компании вручную не пользуясь справочником. Важно помнить при этом, что это название будет сохранено только как название в пределах конкретно только этой записи о документе, поэтому какие-либо связи через эту организацию в Профиле документа выстраиваться не будут.</p>"
+    }, 
+    "inbox_rowID_rel": {
+      "label1": "<span class=''>Основное входящее письмо, для которого редактируемое будет ответным<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='11' fieldName='popoverContent-inbox_rowID_rel'>Основное входящее письмо, для которого редактируемое будет ответным<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.inbox_rowID_rel",
+      "id": "DTE_Field_mailbox_outgoing-inbox_rowID_rel",
+      "popoverTitle": "Основное входящее письмо, для которого редактируемое будет ответным",
+      "popoverContent": "<p>Если вы видите это поле, значит вы создаете ответное письмо и можете в этом поле найти именно то письмо во входящих, на которое создаете ответ. Поиск во входящих осуществляется по дате, по регистрационному номеру АТГС, <u>по регистрационному номеру организации</u>, названию организации и описанию самого письма.</p><p>Важно помнить, что письмо, на которое вы отвечаете <u>НЕ</u> может быть само ответным, поэтом документов этого типа вы в этом списке не найдете. Имейте это в виду.</p>"
+    }, 
+    "enbl_inbox_docType_change": {
+      "label1": "<span class=''>Изменить тип указанного выше входящего документа на 'Запрос ответа' и связать с текущим исходящим документом (входящий запрос - текущий ответ)<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='12' fieldName='popoverContent-enbl_inbox_docType_change'>Изменить тип указанного выше входящего документа на 'Запрос ответа' и связать с текущим исходящим документом (входящий запрос - текущий ответ)<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "enbl_inbox_docType_change",
+      "id": "DTE_Field_enbl_inbox_docType_change",
+      "popoverTitle": "Изменить тип указанного выше входящего документа",
+      "popoverContent": "<p>Отметив этот чекбокс при сохранении формы, тип входящего письма, которое вы выбрали выше будет изменен на 'Запрос'.</p><p>Тут важно помнить, что <u>если вы изменили тип входящего в этой форме редактирования ответного документа (в форме редактирования входящего данное поле будет заблокировано), то изменить его обратно вы можете тоже только в этой же форме, удалив эту привязку</u>. Эта связь отображается в столбце ЗО<sub>o</sub> таблицы как входящих так и исходящих документов.</p>"
+    }, 
+    "inbox_rowIDList_rel": {
+      "label1": "<span class=''>Дополнительные входящие письма, для которых редактируемое будет ответным ( Дата / Номер / Контрагент / Тема )<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<span tabindex='11' fieldName='popoverContent-inbox_rowIDList_rel'>Дополнительные входящие письма, для которых редактируемое будет ответным ( Дата / Номер / Контрагент / Тема )<sup class='popoverElemet' style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "field": "mailbox_outgoing.inbox_rowIDList_rel",
+      "id": "DTE_Field_mailbox_outgoing-inbox_rowIDList_rel",
+      "popoverTitle": "Дополнительные входящие письма, для которых редактируемое будет ответным",
+      "popoverContent": "<p>Если редактируемый Вами документ можно рассматривать как ответный еще на какие-то входящие документы, то можно их с помощью этого поля добавить в список ниже. В результате будут установлены соответствующие связи, которые вы сможете видеть в столбцах списка документов <u>ЗО<sub>o</sub></u> и <u>ЗО<sub>д</sub></u>. Если входящий документ из этого списка не будет иметь основного ответа, то текущий документ станет для него таковым. Имейте это в виду.</p>"
+    }
+  }
+}

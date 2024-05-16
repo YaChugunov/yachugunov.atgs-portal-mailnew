@@ -1,0 +1,26 @@
+div.tooltip-incoming {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: #FFF !important;
+    line-height: 1.15rem;
+}
+
+
+div.tooltip-outgoing {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: #FFF !important;
+    line-height: 1.15rem;
+}
+
+div.tooltip-incoming p,
+div.tooltip-outgoing p {
+    margin-bottom: 0;
+}
+
+div.tooltip-logchanges {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: #FFF !important;
+    line-height: 1.15rem;
+}

@@ -1,0 +1,71 @@
+/* Запрос найдет все записи с одинаковыми значениями в `nameshort` */
+SELECT
+    *
+FROM
+    `sp_contragents`
+WHERE
+    `nameshort` IN (
+        SELECT
+            `nameshort`
+        FROM
+            `sp_contragents`
+        GROUP BY
+            `nameshort`
+        HAVING
+            COUNT(*) > 1
+    )
+ORDER BY
+    `nameshort`
+    /* Запрос найдет все записи с одинаковыми значениями в `nameshort` */
+SELECT
+    *
+FROM
+    `sp_contragents`
+WHERE
+    `nameshort` IN (
+        SELECT
+            `nameshort`
+        FROM
+            `sp_contragents`
+        WHERE
+            `fromdb` IN ("mailbox_sp_zakazchiki", "dognet_spzakaz")
+        GROUP BY
+            `nameshort`
+        HAVING
+            COUNT(*) > 1
+    )
+    AND `fromdb` IN ("dognet_sppostav")
+ORDER BY
+    `nameshort`
+
+
+
+
+
+
+
+
+
+
+/* SELECT * FROM sp_contragents t2 WHERE t2.kodcontragent IN (SELECT outbox_docRecipient_kodzakaz FROM mailbox_outgoing t1) AND t2.has_clone='1' AND t2.kodmain<>"" GROUP BY t2.kodcontragent ORDER BY t2.kodcontragent ASC; */
+
+/* UPDATE mailbox_incoming t1 SET inbox_docSender_kodzakaz = (SELECT kodmain FROM sp_contragents t2 WHERE t1.inbox_docSender_kodzakaz=t2.kodcontragent AND t2.has_clone='1' AND t2.kodmain<>"" GROUP BY t2.kodcontragent); */
+
+/* UPDATE mailbox_outgoing t1 SET outbox_docRecipient_kodzakaz = (SELECT kodmain FROM sp_contragents t2 WHERE t1.outbox_docRecipient_kodzakaz=t2.kodcontragent AND t2.has_clone='1' AND t2.kodmain<>"" GROUP BY t2.kodcontragent); */
+
+/* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
+
+/*
+SELECT * FROM sp_contragents t1 WHERE kodcontragent NOT IN (SELECT kodpost FROM dognet_doczayvchet) AND t1.fromdb="mailbox_sp_zakazchiki";
+SELECT * FROM mailbox_incoming t1 WHERE t1.inbox_docSender_kodzakaz="245555843679648";
+SELECT * FROM mailbox_outgoing t1 WHERE t1.outbox_docRecipient_kodzakaz="245555843679648";
+*/
+
+/* SELECT * FROM dognet_doczayvchet t1 WHERE t1.kodpost IN (SELECT kodcontragent FROM sp_contragents t2); */
+/* SELECT * FROM dognet_doczayvchet t1 WHERE t1.kodpost IN (SELECT kodcontragent FROM sp_contragents t2 WHERE t2.has_clone='1' AND t2.kodmain<>"" AND t2.kodmain<>NULL); */
+
+/* UPDATE dognet_doczayvchet t1 SET t1.kodpost = (SELECT kodmain FROM sp_contragents t2 WHERE t1.kodpost=t2.kodcontragent AND t2.has_clone='1' AND t2.kodmain<>"" GROUP BY t2.kodcontragent) WHERE t1.kodpost IN (SELECT kodcontragent FROM sp_contragents t2 WHERE t2.has_clone='1' AND t2.kodmain<>""); */
+
+/* UPDATE dognet_docbase t1 SET t1.kodzakaz = (SELECT kodmain FROM sp_contragents t2 WHERE t1.kodzakaz=t2.kodcontragent AND t2.has_clone='1' AND t2.kodmain<>"" GROUP BY t2.kodcontragent) WHERE t1.kodzakaz IN (SELECT kodcontragent FROM sp_contragents t2 WHERE t2.has_clone='1' AND t2.kodmain<>""); */
+
+

@@ -1,0 +1,381 @@
+#profile-main .hidden {
+    opacity: 0;
+}
+
+#profile-main {
+    font-size: 12px;
+}
+
+#profile-main h4 {
+    font-family: "Stolzl", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#profile-main p {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+#profile-main p span.nodata {
+    color: #999;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+#profile-main p span.title {
+    color: #111;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+#profile-main p span.text,
+#profile-main p span.comment {
+    color: #999;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+
+#profile-main p span.filelink a {
+    color: #0d6efd;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+#profile-main p span.filelink a:hover {
+    text-decoration: underline;
+}
+
+#docLinked-display-block .itemlist,
+#docLinked-display-subblock .itemlist,
+#contragent-display-block .itemlist,
+#contragent-display-subblock .itemlist {
+    display: flex;
+    flex-direction: column;
+}
+
+#docLinked-display-block>div,
+#docLinked-display-subblock>div,
+#contragent-display-block>div,
+#contragent-display-subblock>div {
+    transition: all 5s ease;
+}
+
+#docLinked-display-block .item,
+#docLinked-display-subblock .item,
+#contragent-display-block .item,
+#contragent-display-subblock .item {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+#docLinked-display-block .item span,
+#docLinked-display-subblock .item span,
+#contragent-display-block .item span,
+#contragent-display-subblock .item span {
+    padding: 0 5px;
+}
+
+#docLinked-display-block table td span a,
+#docLinked-display-subblock table td span a,
+#docLinked-display-subblock .item span a,
+#contragent-display-block .item span a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+#docLinked-display-block table td span a:hover,
+#docLinked-display-subblock table td span a:hover,
+#docLinked-display-subblock .item span a:hover,
+#contragent-display-block .item span a:hover {
+    text-decoration: none;
+}
+
+/* 
+ТАБЛИЦЫ ВЫВОДА ЗАПИСЕЙ ИЗ ВХОДЯЩЕЙ И ИСХОДЯЩЕЙ ПОЧТЫ 
+  - contragent-display-block    - основной блок вывода информации по контрагенту
+  - contragent-display-subblock - вспомогательный блок вывода информации по контрагенту
+  - docLinked-display-block     - основной блок вывода информации по связанным документам
+  - docLinked-display-subblock  - вспомогательный блок вывода информации по связанным документам
+
+>>>>> >>>>> >>>>> 
+*/
+div.mail table td:first-child {
+    width: 85px;
+}
+
+div.mail table td:nth-child(2) {
+    width: 15%;
+    min-width: 200px;
+}
+
+div.mail table td:nth-child(3) {
+    width: 13%;
+    min-width: 150px;
+}
+
+div.mail table td:nth-child(4) {
+    width: auto;
+}
+
+/* <<<<< <<<<< <<<<< */
+
+
+#docLinked-display-block .linkedDog table td button {
+    font-size: 1em;
+}
+
+#docLinked-display-block .linkedDog table td:first-child {
+    width: 85px;
+}
+
+#docLinked-display-subblock .sumDog table td:first-child {
+    width: 23%;
+    min-width: 240px;
+}
+
+#contragent-display-block .item span:nth-child(2) {
+    width: 13%;
+}
+
+#docLinked-display-block .linkedDog table td:nth-child(2) {
+    width: 15%;
+    min-width: 200px;
+}
+
+#docLinked-display-subblock .sumDog table td:nth-child(2) {
+    width: 23%;
+    min-width: 240px;
+}
+
+#contragent-display-block .item span:nth-child(3) {
+    width: 10%;
+}
+
+#docLinked-display-block .linkedDog table td:nth-child(3) {
+    width: 15%;
+    min-width: 200px;
+}
+
+#docLinked-display-subblock .sumDog table td:nth-child(3) {
+    width: 14%;
+}
+
+#contragent-display-block .item span:nth-child(4) {
+    width: auto;
+}
+
+#docLinked-display-block .linkedDog table td:nth-child(4) {
+    width: auto;
+}
+
+#docLinked-display-subblock .sumDog table td:nth-child(4) {
+    width: 20%;
+}
+
+#docLinked-display-subblock .sumDog table td:nth-child(5) {
+    width: 20%;
+}
+
+#docLinked-display-block .item span.nodata,
+#docLinked-display-subblock .linkedInc .item span.nodata,
+#contragent-display-block .item span.nodata,
+#contragent-display-subblock .linkedOut .item span.nodata {
+    width: 100%;
+}
+
+#docLinked-display-block .alert-dismissible .btn-close,
+#docLinked-display-subblock .alert-dismissible .btn-close,
+#contragent-display-block .alert-dismissible .btn-close,
+#contragent-display-subblock .alert-dismissible .btn-close {
+    padding: .45rem 0.45rem;
+}
+
+#docLinked-display-block .alert-light,
+#docLinked-display-subblock .alert-light,
+#contragent-display-block .alert-light,
+#contragent-display-subblock .alert-light {
+    background-color: #fafafa;
+    border-color: #fafafa;
+}
+
+#contragent-display-block table thead th,
+#contragent-display-block table tbody td,
+#docLinked-display-block table thead th,
+#docLinked-display-block table tbody td {
+    padding: 0.35rem 0.25rem;
+}
+
+#contragent-display-block .alert-dismissible .close,
+#contragent-display-subblock .alert-dismissible .close,
+#docLinked-display-block .alert-dismissible .close,
+#docLinked-display-subblock .alert-dismissible .close {
+    top: -0.2rem;
+    right: -0.6rem;
+    font-size: 1.0rem;
+    padding: 0.5rem 1rem;
+}
+
+div.alert.alert-fadein {
+    opacity: 0;
+    animation: alert-fadein-ani 2.5s forwards;
+}
+
+@keyframes alert-fadein-ani {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#profile-title h1 {
+    font-family: "Stolzl", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#profile-title h3 {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#docLinked-display-block button.btn.btn-small-link,
+#docLinked-display-subblock button.btn.btn-small-link,
+#contragent-display-block button.btn.btn-small-link,
+#contragent-display-subblock button.btn.btn-small-link {
+    font-size: 0.7rem;
+    border: 1px solid #CCC;
+    border-radius: 0;
+    background-color: #999;
+    padding: 0.2rem 0.45rem;
+    color: #FFF;
+}
+
+#docLinked-display-block button.btn.btn-small-link:hover,
+#docLinked-display-subblock button.btn.btn-small-link:hover,
+#contragent-display-block button.btn.btn-small-link:hover,
+#contragent-display-subblock button.btn.btn-small-link:hover {
+    color: #111;
+    border-color: #FFF;
+}
+
+#contragent-display-block button.btn.btn-small-link:focus,
+#contragent-display-block button.btn.btn-small-link:active,
+#contragent-display-subblock button.btn.btn-small-link:focus,
+#contragent-display-subblock button.btn.btn-small-link:active {
+    outline: 0;
+    box-shadow: none
+}
+
+#docLinked-display-block button.btn.btn-small-link:focus,
+#docLinked-display-block button.btn.btn-small-link:active,
+#docLinked-display-subblock button.btn.btn-small-link:focus,
+#docLinked-display-subblock button.btn.btn-small-link:active {
+    outline: 0;
+    box-shadow: none
+}
+
+#docLinked-display-block table.table>tbody>tr>td,
+#docLinked-display-subblock table.table>tbody>tr>td,
+#contragent-display-block table.table>tbody>tr>td,
+#contragent-display-subblock table.table>tbody>tr>td {
+    border-top: none;
+}
+
+#docLinked-display-block table.table>tbody>tr.contrInfo>td,
+#docLinked-display-subblock table.table>tbody>tr.contrInfo>td,
+#contragent-display-block table.table>tbody>tr.contrInfo>td,
+#contragent-display-subblock table.table>tbody>tr.contrInfo>td {
+    padding-bottom: 0.1rem;
+}
+
+#docLinked-display-block table.table>tbody>tr.contrButtons>td,
+#docLinked-display-subblock table.table>tbody>tr.contrButtons>td,
+#contragent-display-block table.table>tbody>tr.contrButtons>td,
+#contragent-display-subblock table.table>tbody>tr.contrButtons>td {
+    padding-top: 0.1rem;
+}
+
+
+/* 
+ТАБЛИЦЫ ВЫВОДА ЗАПИСЕЙ ИЗ ВХОДЯЩЕЙ И ИСХОДЯЩЕЙ ПОЧТЫ 
+  - contragent-display-block    - основной блок вывода информации по контрагенту
+  - contragent-display-subblock - вспомогательный блок вывода информации по контрагенту
+  - docLinked-display-block     - основной блок вывода информации по связанным документам
+  - docLinked-display-subblock  - вспомогательный блок вывода информации по связанным документам
+
+>>>>> >>>>> >>>>> 
+*/
+table.byZak-lastOut.table thead>tr>th:first-child,
+table.byZak-lastOut.table tbody>tr>td:first-child {
+    width: 9%;
+    white-space: nowrap;
+}
+
+table.byZak-lastOut.table thead>tr>th:nth-child(2),
+table.byZak-lastOut.table tbody>tr>td:nth-child(2) {
+    width: 12%;
+    white-space: nowrap;
+}
+
+table.byZak-lastOut.table thead>tr>th:nth-child(3),
+table.byZak-lastOut.table tbody>tr>td:nth-child(3),
+table.byZak-lastOut.table thead>tr>th:nth-child(4),
+table.byZak-lastOut.table tbody>tr>td:nth-child(4) {
+    width: 11%;
+}
+
+table.byZak-lastOut.table thead>tr>th:nth-child(5),
+table.byZak-lastOut.table tbody>tr>td:nth-child(5),
+table.byZak-lastOut.table thead>tr>th:nth-child(6),
+table.byZak-lastOut.table tbody>tr>td:nth-child(6) {
+    width: 11%;
+}
+
+table.byZak-lastOut.table thead>tr>th:nth-child(7),
+table.byZak-lastOut.table tbody>tr>td:nth-child(7) {
+    width: 33%;
+}
+
+/* ----- ----- ----- ----- ----- */
+
+table.byZak-lastIn.table thead>tr>th:first-child,
+table.byZak-lastIn.table tbody>tr>td:first-child {
+    width: 9%;
+    white-space: nowrap;
+}
+
+table.byZak-lastIn.table thead>tr>th:nth-child(2),
+table.byZak-lastIn.table tbody>tr>td:nth-child(2) {
+    width: 12%;
+    white-space: nowrap;
+}
+
+table.byZak-lastIn.table thead>tr>th:nth-child(3),
+table.byZak-lastIn.table tbody>tr>td:nth-child(3),
+table.byZak-lastIn.table thead>tr>th:nth-child(4),
+table.byZak-lastIn.table tbody>tr>td:nth-child(4) {
+    width: 11%;
+}
+
+table.byZak-lastIn.table thead>tr>th:nth-child(5),
+table.byZak-lastIn.table tbody>tr>td:nth-child(5),
+table.byZak-lastIn.table thead>tr>th:nth-child(6),
+table.byZak-lastIn.table tbody>tr>td:nth-child(6) {
+    width: 11%;
+}
+
+table.byZak-lastIn.table thead>tr>th:nth-child(7),
+table.byZak-lastIn.table tbody>tr>td:nth-child(7) {
+    width: 33%;
+}
+
+table td span.empty {
+    color: #ccc;
+}

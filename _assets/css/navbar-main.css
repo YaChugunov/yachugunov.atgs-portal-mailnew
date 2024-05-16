@@ -1,0 +1,81 @@
+div.navbar-service-container {
+    background-color: #161617 !important;
+    margin-top: 110px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 0.5rem 1.0rem !important;
+}
+
+nav#navbar-service.navbar {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+
+nav#navbar-service .navbar-brand,
+nav#nav-submenu .navbar-brand {
+    font-size: 1rem;
+}
+
+nav#navbar-service.navbar a.navbar-brand {
+    line-height: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav#navbar-service.navbar a.navbar-brand:hover {
+    text-decoration: none;
+}
+
+nav#navbar-service.navbar a.navbar-brand span.navb-line1 {
+    color: #F8F9FA !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+}
+
+nav#navbar-service.navbar .nav-item a.nav-link {
+    color: #F8F9FA !important;
+    font-family: 'Stolzl Book', sans-serif;
+    font-size: 1.0rem;
+    /* border: 1px solid transparent; */
+    /* border-radius: 8px; */
+}
+
+nav#navbar-service.navbar .nav-item.active a.nav-link {
+    color: #FFF;
+    border-radius: 8px;
+    background-color: #0178FA;
+}
+
+nav#nav-submenu.navbar .nav-item.active a.nav-link {
+    color: #0178FA;
+    outline: 1px solid #0178FA;
+    outline-offset: -1px;
+    border-radius: 8px;
+}
+
+nav#nav-submenu.navbar a.navbar-brand span.navb-line2 {
+    color: #333;
+    font-family: 'Stolzl Book', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-transform: none;
+}
+
+nav#nav-submenu.navbar a.nav-link {
+    color: #333;
+    font-family: 'Stolzl Book', sans-serif;
+    font-size: 0.85rem;
+}
+
+nav#navbar-service.navbar .nav-item:not(.active) a.nav-link:hover,
+nav#nav-submenu.navbar .nav-item:not(.active) a.nav-link:hover {
+    text-decoration: underline;
+}
+
+#navbar-topmain .navbar-brand {
+    margin-right: 0;
+}

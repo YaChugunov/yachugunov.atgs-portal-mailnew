@@ -1,0 +1,1214 @@
+div.DTE_Header.modal-header {
+  background-color: #02546e;
+}
+
+div.DTE_Header.modal-header h3 {
+  font-family: "Jura", sans-serif;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+div.DTE_Header.modal-header>button.close {
+  color: #ffffff;
+  margin-top: -15px;
+  margin-right: -10px;
+  text-shadow: none;
+  opacity: 1;
+}
+
+#editorform {
+  border: 2px #02546e solid;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#editorform {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#editorform fieldset legend {
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+#editorform fieldset.name {
+  flex: 1 50%;
+}
+
+#editorform fieldset.name legend {}
+
+#editorform fieldset.office legend {}
+
+#editorform fieldset.hr legend {
+  background: #ffbfbf;
+}
+
+#editorform div.DTE_Field {
+  padding: 0;
+  text-align: center;
+}
+
+#editorform div.DTE_Field>label.control-label {
+  text-align: left;
+  font-family: "Play", sans-serif;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  color: #000;
+}
+
+#editorform div.DTE_Field>label.control-label[for="DTE_Field_mailbox_incoming-inbox_controlIspolCheckout"],
+#editorform div.DTE_Field>label.control-label[for="DTE_Field_mailbox_incoming-inbox_controlIspolSendEmail0"],
+#editorform div.DTE_Field>label.control-label[for="DTE_Field_mailbox_incoming-inbox_controlIspolSendEmail1"] {
+  text-align: center;
+}
+
+#editorform div.has-error {
+  background-color: #FFEBEB;
+}
+
+#editorform div.has-error div[data-dte-e='msg-error'] {
+  margin-top: 0;
+  text-align: left;
+}
+
+#editorform {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+#editorform input.form-control:not([type='file'], #DTE_Field_mailbox_incoming-msgDocFileID) {
+  height: 28px;
+  padding: 4px 6px;
+  font-size: 13px;
+  border: 1px solid #adf;
+}
+
+#editorform select.form-control:not([id='linked-mail-listDocs']),
+#editorform select.form-control:not([id='DTE_Field_mailbox_incoming-inbox_docContractor_kodzayvispol']) {
+  height: 28px;
+}
+
+#editorform select.form-control[id='DTE_Field_mailbox_incoming-inbox_docContractor_kodzayvispol'] {
+  height: 137px;
+}
+
+#editorform select.form-control,
+#editorform textarea.form-control {
+  padding: 4px 6px;
+  font-size: 13px;
+  border: 1px solid #adf;
+}
+
+#editorform textarea.form-control {
+  resize: none;
+}
+
+#editorform div.Section {
+  justify-content: flex-start;
+  padding: 0;
+  background-color: #fafafa;
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 70%;
+  align-content: flex-start;
+}
+
+#editorform div.Block100 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+#editorform div.Block95 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 95%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block90 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 90%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block85 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 85%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block80 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 80%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block75 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 75%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block70 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 70%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block65 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 65%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block60 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 60%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block55 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 55%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block50 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block45 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 45%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block40 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 40%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block35 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 35%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block30 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 30%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block25 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 25%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block20 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 20%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block15 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 15%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block10 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 10%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform div.Block5 {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 5%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0 2px;
+}
+
+#editorform fieldset.field10 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 10%;
+}
+
+#editorform fieldset.field10>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field15 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 15%;
+}
+
+#editorform fieldset.field15>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field20 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 20%;
+}
+
+#editorform fieldset.field20>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field25 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 25%;
+}
+
+#editorform fieldset.field25>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field30 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 30%;
+}
+
+#editorform fieldset.field30>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field35 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 35%;
+}
+
+#editorform fieldset.field35>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field40 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 40%;
+}
+
+#editorform fieldset.field40>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field45 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 45%;
+}
+
+#editorform fieldset.field45>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field50 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+}
+
+#editorform fieldset.field50>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field60 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 60%;
+}
+
+#editorform fieldset.field60>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field70 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 70%;
+}
+
+#editorform fieldset.field70>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field80 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 80%;
+}
+
+#editorform fieldset.field80>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field90 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 90%;
+}
+
+#editorform fieldset.field90>div>div {
+  width: 100%;
+}
+
+#editorform fieldset.field100 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100%;
+}
+
+#editorform fieldset.field100>div>div {
+  width: 100%;
+}
+
+#editorform>div>div>div>div.Section>div>fieldset>div.DTE_Field_Type_checkbox>label.control-label,
+#editorform>div>div>div>div.Section>div>div>fieldset>div.DTE_Field_Type_checkbox>label.control-label {
+  text-align: center;
+}
+
+#editorform div.DTE_Field_InputControl>div>div>label {
+  display: none;
+}
+
+#editorform fieldset>div>label.control-label {
+  width: 100%;
+}
+
+#editorform>div>div>div>div.Section>div>div>fieldset>div>div>div>select:focus,
+#rel2_filter:focus,
+#sender_filter:focus {
+  outline: none;
+}
+
+#rel2_filter,
+#sender_filter {
+  height: 34px;
+  width: 100%;
+  color: #333;
+  font-size: 1em;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* */
+#editorform>div>div>div>div.Section>div>legend,
+#editorform>div>div>div>div.Section>div>div>legend,
+#editorform>div>div>div>div.Section>div>div>div>legend {
+  padding: 5px 0 5px 0;
+  font-family: "HeliosCond", sans-serif;
+  font-size: 1.8em;
+  font-weight: normal;
+  border: none;
+  border-bottom: 1px #01556e dashed;
+  text-transform: none;
+  color: #01556e;
+  background-color: transparent;
+  letter-spacing: 0.01em;
+}
+
+#editorform>div>div>div>div.Section>div>fieldset.kodzakazFilter>input,
+#editorform>div>div>div>div.Section>div>div>fieldset.kodzakazFilter>input {
+  height: 34px;
+  padding: 6px 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#editorform>div>div>div>div.Section>div>fieldset.kodobjectFilter>input,
+#editorform>div>div>div>div.Section>div>div>fieldset.kodobjectFilter>input {
+  height: 34px;
+  padding: 6px 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#editorform>div>div>div>div.Section>div>div>fieldset.kodblankworkFilter>input,
+#editorform>div>div>div>div.Section>div>div>div>fieldset.kodblankworkFilter>input {
+  height: 34px;
+  padding: 6px 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#editorform>div>div>div>div.Section>div>div>fieldset>div.fieldset-info,
+#editorform>div>div>div>div.Section>div>fieldset>div.fieldset-info {
+  min-height: 34px;
+  font-style: italic;
+  padding: 2px;
+}
+
+#editorform .Section>div>div.fieldset-table-row,
+#editorform .Section>div>div>div.fieldset-table-row,
+#editorform .Section>div>div>div>div.fieldset-table-row,
+#editorform>div>div>div>div.Section>div>div.fieldset-table-row,
+#editorform>div>div>div>div.Section>div>div>div.fieldset-table-row,
+#editorform>div>div>div>div.Section>div>div>div>div.fieldset-table-row,
+#editorform>div>div>div>div.Section>div.fieldset-table-row {
+  display: table-row;
+  padding: 0 10px;
+}
+
+#editorform .Section>div>div>div.fieldset-table-cell,
+#editorform>div>div>div>div.Section>div>div>div.fieldset-table-cell,
+#editorform>div>div>div>div.Section>div>div>div>div.fieldset-table-cell,
+#editorform>div>div>div>div.Section>div>div>div>div>div.fieldset-table-cell,
+#editorform>div>div>div>div.Section>div>div.fieldset-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#editorform .Section>div>div>div.fieldset-table-cell>fieldset>div.chekbox-inline-text,
+#editorform>div>div>div>div.Section>div>div>div.fieldset-table-cell>fieldset>div.chekbox-inline-text,
+#editorform>div>div>div>div.Section>div>div>div>div.fieldset-table-cell>fieldset>div.chekbox-inline-text {
+  font-family: "HeliosCond", sans-serif;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+#editorform .Section>div>div>div>fieldset>div>div.controls,
+#editorform>div>div>div>div.Section>div>div>div>fieldset>div>div.controls,
+#editorform>div>div>div>div.Section>div>div>div>div>fieldset>div>div.controls {
+  width: 100%;
+}
+
+#editorform .Section>div>div.fieldset-table-row,
+#editorform>div>div>div>div.Section>div.fieldset-table-row,
+#editorform>div>div>div>div.Section>div>div.fieldset-table-row,
+#editorform>div>div>div>div.Section>div>div>div.fieldset-table-row {
+  display: table-row;
+}
+
+#editorform .Section>div>div>div.fieldset-table-cell-text,
+#editorform>div>div>div>div.Section>div>div>div.fieldset-table-cell-text,
+#editorform>div>div>div>div.Section>div>div>div>div.fieldset-table-cell-text,
+#editorform>div>div>div>div.Section>div>div.fieldset-table-cell-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#editorform .Section>div>div>div.fieldset-table-cell-field,
+#editorform>div>div>div>div.Section>div>div>div.fieldset-table-cell-field,
+#editorform>div>div>div>div.Section>div>div>div>div.fieldset-table-cell-field,
+#editorform>div>div>div>div.Section>div>div.fieldset-table-cell-field {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#editorform .Section>div>div>div.fieldset-table-cell>div>div.chekbox-inline-text,
+#editorform>div>div>div>div.Section>div>div>div.fieldset-table-cell>div>div.chekbox-inline-text,
+#editorform>div>div>div>div.Section>div>div>div>div.fieldset-table-cell>div>div.chekbox-inline-text,
+#editorform>div>div>div>div.Section>div>div>div.fieldset-table-cell-text>div>div.chekbox-inline-text,
+#editorform>div>div>div>div.Section>div>div>div>div.fieldset-table-cell-text>div>div.chekbox-inline-text {
+  font-family: "HeliosCond", sans-serif;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+/*
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+Пользовательская форма создания/редактирования записи
+
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+*/
+#editorform-editor-tabs .nav>li>a {
+  color: #fff;
+}
+
+#editorform-editor-tabs .nav>li>a:focus,
+#editorform-editor-tabs .nav>li>a:hover {
+  background-color: transparent;
+}
+
+#editorform-editor-tabs .nav-tabs>li.active>a {
+  color: #111 !important;
+  background-color: #fff;
+}
+
+#editorform-editor-tabs .nav-tabs>li>a:hover {
+  color: #111 !important;
+  background-color: #fff;
+  border-bottom: transparent;
+}
+
+#editorform-editor-tabs .nav-tabs>li>a::after {
+  background: #f1f1f1;
+}
+
+#editorform-editor-tabs>ul>li>a {
+  font-family: "Play", sans-serif;
+  font-size: 1em;
+}
+
+/* Изменено 20.06.2019 --- */
+#editorform-editor-tabs-menu {
+  background: #02546e;
+  padding: 0;
+  border-bottom: none;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#editorform-editor-tabs-menu>li>a:hover {
+  background-color: #f1f1f1;
+}
+
+#editorform-editor-tabs-menu>li>a::after {
+  content: "";
+  background: #f1f1f1;
+  height: 40px;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: -1px;
+  transition: all 250ms ease 0s;
+  transform: scale(0);
+}
+
+#editorform-editor-tabs-menu>li.active>a::after,
+#editorform-editor-tabs-menu>li:hover>a::after {
+  transform: scale(1);
+}
+
+/**/
+/**/
+/**/
+/* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
+/**/
+/**/
+/**/
+
+textarea[id="DTE_Field_dognet_docbase-docnameshot"],
+textarea[id="DTE_Field_dognet_docbase-docnamefullm"],
+textarea[id="DTE_Field_dognet_docbase-comments"] {
+  resize: none;
+}
+
+#editorform-editor-tab-1>div.Section>div>fieldset.koddocFilter>input,
+#editorform-editor-tab-1>div.Section>div>div>fieldset.koddocFilter>input {
+  height: 34px;
+  padding: 6px 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+div.DTE div.DTE_Processing_Indicator span,
+div.DTE div.DTE_Processing_Indicator:before,
+div.DTE div.DTE_Processing_Indicator:after {
+  display: none;
+}
+
+/* ФАЙЛ */
+#DTE_Field_mailbox_incoming-msgDocFileID {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  font-family: "HeliosCond", sans-serif;
+  color: #b95959;
+  border: 2px #b95959 solid;
+  background-color: transparent;
+}
+
+#js-file {
+  display: inherit
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset.docFileID>div>div>div.DTE_Field_InputControl>div>div>div>div.cell.clearValue {
+  display: none;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset.docFileID>div>div>div.DTE_Field_InputControl>div>div>div.row.second>div:nth-child(1) {
+  display: none;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset.docFileID>div>div>div.DTE_Field_InputControl>div>div>div.row.second>div:nth-child(2) {
+  padding-left: 0;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>legend {
+  padding: 5px 0 5px 15px;
+  font-family: "HeliosCond", sans-serif;
+  font-weight: normal;
+  border: none;
+  border-left: 10px #b95959 solid;
+  text-transform: none;
+  color: #111;
+  background-color: #ddd;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div.DTE_Field>label.control-label {
+  display: none;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div>div.DTE_Field_InputControl>div>div>div.row.second>div.cell>button.btn {
+  cursor: pointer;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div>div.DTE_Field_InputControl>div>div>div.row.second>div.cell {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div>div.DTE_Field_InputControl>div>div>div.row.second>div.cell>div.drop {
+  min-height: 8em;
+  border: 2px #ccc dashed;
+  border-radius: 1px;
+  padding: 15% 5px;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div.controls {
+  width: 100%;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div>div.DTE_Field_InputControl>div>div>div>div.cell.upload>button,
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div>div.DTE_Field_InputControl>div>div>div>div.cell.clearValue>button {
+  color: #333;
+  background-color: #f1f1f1;
+  border-color: #f0f0f0;
+  font-size: 1em;
+  height: 3em;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div>div.DTE_Field_InputControl>div>div>div>div.cell.upload>input {
+  height: -webkit-fill-available;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div>div.DTE_Field_InputControl>div>div>div>div.cell.upload>input:hover {
+  cursor: pointer;
+}
+
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div>div.DTE_Field_InputControl>div>div>div>div.cell.upload>button:hover,
+#editorform>div>div>div>div.Section>div.fileDocSection>div>fieldset>div>div>div.DTE_Field_InputControl>div>div>div>div.cell.clearValue>button:hover {
+  border-color: #fff;
+  color: #fff;
+  background-color: #000;
+}
+
+/**/
+
+.errmsg {
+  position: absolute;
+  right: 1px;
+  top: -1px;
+  font-weight: 300;
+}
+
+#DTE_Field_mailbox_incoming-msgDocFileID {
+  font-size: 1.3em;
+  text-transform: none;
+  font-weight: 400;
+  text-align: center;
+  font-family: "HeliosCond", sans-serif;
+  color: #b95959;
+  border: 2px #b95959 solid;
+  background-color: transparent;
+  padding: 5% 0;
+}
+
+#DTE_Field_mailbox_incoming-lnkDocFileID {
+  font-size: 1.3em;
+  text-transform: none;
+  font-weight: 400;
+  text-align: center;
+  font-family: "HeliosCond", sans-serif;
+  color: #31708f;
+  border: 2px #31708f solid;
+  background-color: transparent;
+  padding: 5% 0;
+}
+
+#lnkDocFileID {
+  width: 100%;
+  text-align: center;
+  margin: 5px;
+  font-family: "Play", sans-serif;
+  font-size: 1em;
+}
+
+#lnkDocFileID a,
+#uploadFiles-result a {
+  color: #08c;
+  text-decoration: underline;
+}
+
+#lnkDocFileID a:hover,
+#uploadFiles-result a:hover {
+  text-decoration: none;
+}
+
+.lnkDocFileID {
+  width: 100%;
+  text-align: left;
+  margin: 5px;
+  font-family: "Play", sans-serif;
+  font-size: 1em;
+}
+
+#DTE_Field_mailbox_incoming-inbox_docContractor_kodzayvispol {
+  height: 137px;
+}
+
+div.lnkDocFileID>span.remove-mainfile,
+#uploadFiles-result>p>span.remove-file,
+#listFiles-result>span.remove-file {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: red;
+  font-weight: 500;
+  font-size: 1.0em;
+}
+
+#listFiles-result a {
+  text-decoration: underline;
+}
+
+#listFiles-result a:hover {
+  text-decoration: none;
+}
+
+div.lnkDocFileID>span.remove-mainfile,
+#uploadFiles-result>p>span.remove-file:hover,
+#listFiles-result>span.remove-file:hover {
+  cursor: pointer;
+}
+
+#editorform div.editor_upload {
+  padding-top: 0;
+}
+
+#editorform div.editor_upload>div.rendered {
+  text-align: left;
+  font-size: 0.95em;
+  margin-top: 0;
+}
+
+#editorform div.editor_upload div.cell {
+  width: 100%
+}
+
+#editorform div.editor_upload div.cell.upload.limitHide,
+#editorform div.editor_upload div.cell.clearValue>button {}
+
+#editorform div.editor_upload input[type=file] {
+  display: table-cell;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+
+#DTEdiv.D div.editor_upload.noDrop div.rendered {}
+
+#DTE_Field_mailbox_incoming-inbox_docFileID {
+  display: block;
+  width: 100%;
+  /* height: 34px; */
+  padding: 10px;
+  font-size: 0.9em;
+  line-height: 1.42857143;
+  color: #111;
+  background-color: inherit;
+  background-image: none;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+#js-file {
+  font-size: 0.9em;
+}
+
+#linked-mail-outgoingDocs {
+  padding: 4px;
+  font-size: 13px;
+}
+
+#linked-dognet-docs {
+  padding: 4px;
+  font-size: 13px;
+}
+
+.doc-links-buttons {}
+
+#editorform ul.nav.nav-pills>li>a {
+  font-family: 'Play', sans-serif;
+  color: #111111;
+  background-color: transparent;
+  border: 1px solid #02546e;
+  position: relative;
+  display: block;
+  padding: 4px 15px;
+}
+
+#editorform ul.nav.nav-pills>li>a:hover {
+  color: #02546e;
+  border-color: #ccc;
+}
+
+#editorform ul.nav.nav-pills>li.active>a,
+#editorform ul.nav.nav-pills>li.active>a:focus,
+#editorform ul.nav.nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: #02546e;
+  border-color: #02546e;
+}
+
+
+
+
+@font-face {
+  font-family: 'Stolzl';
+  src: url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Light.eot');
+  src: local('Stolzl Light'), local('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Light'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Light.eot?#iefix') format('embedded-opentype'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Light.woff2') format('woff2'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Light.woff') format('woff'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stolzl';
+  src: url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Thin.eot');
+  src: local('Stolzl Thin'), local('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Thin'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Thin.eot?#iefix') format('embedded-opentype'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Thin.woff2') format('woff2'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Thin.woff') format('woff'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stolzl Book';
+  src: url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Book.eot');
+  src: local('Stolzl Book'), local('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Book'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Book.eot?#iefix') format('embedded-opentype'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Book.woff2') format('woff2'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Book.woff') format('woff'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stolzl';
+  src: url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Regular.eot');
+  src: local('Stolzl Regular'), local('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Regular'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Regular.eot?#iefix') format('embedded-opentype'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Regular.woff2') format('woff2'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Regular.woff') format('woff'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stolzl';
+  src: url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Bold.eot');
+  src: local('Stolzl Bold'), local('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Bold'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Bold.eot?#iefix') format('embedded-opentype'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Bold.woff2') format('woff2'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Bold.woff') format('woff'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stolzl';
+  src: url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Medium.eot');
+  src: local('Stolzl Medium'), local('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Medium'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Medium.eot?#iefix') format('embedded-opentype'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Medium.woff2') format('woff2'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Medium.woff') format('woff'),
+    url('<?php echo __ROOT; ?>/_assets/fonts/Stolzl-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+#DTE_Field_mailbox_incoming_test-inbox_docType,
+#DTE_Field_mailbox_incoming_test-inbox_docRecipient_kodzayvtel {
+  height: 28px;
+}
+
+span.select2.select2-container.select2-container--default.select2-container--focus {
+  width: 100%;
+}
+
+span.select2-container>span>span.select2-selection {
+  height: 28px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.select2-results__option {
+  padding: 4px 8px;
+  line-height: 1.2em;
+}
+
+#select2-DTE_Field_mailbox_incoming-inbox_docSender_kodzakaz-container {
+  line-height: 30px;
+  text-align: left;
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 13px;
+  line-height: 1em;
+}
+
+span.select2-container>span.selection>span.select2-selection>span.select2-selection__arrow {
+  height: 28px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  max-width: 920px;
+}
+
+.select2-container--default .select2-selection--single {
+  border: 1px solid #0446f9;
+}
+
+.select2-container--open .select2-dropdown--below {
+  border-color: #0446f9;
+}
+
+#editorform .popoverDivControl {
+  font-family: "Play", sans-serif;
+  text-align: left;
+  font-size: 1em;
+  margin-bottom: 10px;
+  padding: 8px 5px;
+  border: 1px #ff0000 dashed;
+}
+
+#editorform .popoverDivControl label {
+  line-height: normal;
+}
+
+#editorform .popoverDivControl>label>div {
+  margin-top: 3px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+#editorform .popover {
+  min-width: 420px;
+  font-size: 12px;
+  font-family: "Stolzl", Arial, Helvetica Neue, Helvetica, sans-serif;
+  /* font-family: "Play", sans-serif; */
+}
+
+#editorform .popover-title {
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #ff0000;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  padding: 10px 14px;
+}
+
+#editorform .popover-content {}
+
+
+#editorform .popover-content p {
+  color: #666;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 3px;
+  text-align: justify;
+}
+
+#editorform .popover-content p b {
+  color: #111;
+}
+
+#editorform .popover-content div.warning {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px #02546e solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: justify;
+}
+
+#editorform .popover-content div.warning p {
+  color: #000;
+  line-height: 1.25em;
+}
+
+#editorform .popover-content h3,
+#editorform .popover-content h4 {
+  color: #111;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+
+#editorform .popover-content h3:first-child,
+#editorform .popover-content h4:first-child {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+#editorform .popover-content h3 {
+  font-size: 1.2em;
+}
+
+#editorform .popover-content h4 {
+  font-size: 1.1em;
+}
+
+#editorform .popover-content div.knoweledge-base-link {
+  margin-top: 10px;
+  text-align: right;
+}
+
+#editorform .popover-content div.knoweledge-base-link a {
+  color: #1a73e8;
+  font-size: 0.9em;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+#editorform .popover-content div.knoweledge-base-link a:hover {
+  text-decoration: none;
+}

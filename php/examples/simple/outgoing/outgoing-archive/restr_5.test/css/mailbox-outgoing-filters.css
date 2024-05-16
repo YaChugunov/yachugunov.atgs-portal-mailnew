@@ -1,0 +1,38 @@
+/*
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+ПАНЕЛЬ ФИЛЬТРОВ
+
+----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+*/
+
+div.filters-block {
+    font-family: 'Stolzl', sans-serif;
+    font-size: 12px;
+}
+
+div.filters-block .card {
+    /* border-color: #ADF; */
+}
+
+div.filters-block .form-group label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+div.filters-block .form-group select,
+div.filters-block .form-group input {
+    font-size: 0.75rem;
+    border: 1px solid #ADF;
+}
+
+p.mail-outgoing-filters-button i {
+    position: relative;
+    top: -14px;
+    right: 9px;
+}
+
+div.filters-block .filter-active {
+    border: 2px solid #e0550b !important;
+}

@@ -1,0 +1,61 @@
+#footer {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #161617 !important;
+    color: #CCCCCC;
+    position: relative;
+    z-index: 11;
+}
+
+#footer .small-text {
+    font-size: 0.75rem;
+}
+
+#footer .small-text.devname {
+    color: #AAAAAA;
+    font-size: 0.65rem;
+}
+
+#footer .small-text.devcomp {
+    color: #CCCCCC;
+    font-size: 0.8rem;
+}
+
+#footer h3.section-title {
+    font-size: 1.1rem;
+    color: #F1F1F1;
+    white-space: nowrap;
+}
+
+#footer p {
+    margin-bottom: 0.25rem;
+}
+
+#footer p.section-text,
+#footer p.section-text a {
+    font-size: 0.75rem;
+    color: #AAAAAA;
+}
+
+#footer p.section-text i {
+    color: #AAAAAA;
+    padding-right: 0.75rem;
+}
+
+#footer div.col-copyright {
+    /* border-left: 2px solid #555555; */
+    /* border-right: 2px solid #555555; */
+}
+
+#footer div.col-copyright img {
+    max-width: 100px;
+    opacity: 0.35;
+}
+
+#footer .footer-wiki-link:hover {
+    cursor: pointer;
+}
+
+#footer span.footer-wiki-link:hover {
+    text-decoration: underline;
+}

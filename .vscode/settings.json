@@ -1,0 +1,17 @@
+{
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "editor.fontFamily": "Fira Code Light",
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    "intelephense.environment.documentRoot": "D:\\GitHub\\ATGS.Portal\\ATGS.Portal-Workspace\\ATGS.Portal-mailnew\\mailnew",
+    "prettier.printWidth": 240,
+    "prettier.proseWrap": "never",
+    "prettier.requireConfig": true,
+    "prettier.tabWidth": 4,
+    "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+    "editor.cursorStyle": "underline"
+}

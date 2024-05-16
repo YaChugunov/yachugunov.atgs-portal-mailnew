@@ -1,0 +1,44 @@
+{
+  "data": {
+    "inbox_docAbout": {
+      "label1": "<span class=''>Тема<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<a class='popoverElemet' tabindex='0' fieldName='popoverContent-inbox_docAbout'>Тема<sup style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></a>",
+      "field": "mailbox_incoming.inbox_docAbout",
+      "id": "DTE_Field_mailbox_incoming-inbox_docAbout",
+      "popoverTitle": "Описание документа",
+      "popoverContent": "<p>Просто описание документа. Чем подробнее будет описание, тем информативнее будет запись о документе.</p>"
+    }, 
+    "inbox_docType": {
+      "label1": "<span class=''>Тип<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<a class='popoverElemet' tabindex='1' fieldName='popoverContent-inbox_docType'>Тип<sup style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></a>",
+      "field": "mailbox_incoming.inbox_docType",
+      "id": "DTE_Field_mailbox_incoming-inbox_docType",
+      "popoverTitle": "Тип документа1",
+      "popoverContent": "<p><u>Общее, Информационное</u> - это обычные и стандартные типы документов для стандартных документов корпоративной переписки. Никаких принципиальных различий между этими двумя типами на текущий момент нет. На усмотрение пользователя.</p><p><u>Ответное</u> - этот тип документа используется для письма, являющегося ответом на официальный запрос, с однозначной привязкой к контрдокументу и сменой типа последнего на <u>Запрос ответа</u>. Либо таковым образом маркируется документ, который можно рассматривать как ответ или комментарий к контрдокументу, но без однозначной привязки и сменой типа последнего.</p><p><u>Запрос ответа</u> - этот тип документа используется в случае, когда ожидается или даже требуется официальный ответ от контрагента.</p><p>Этот тип документа выставляется вручную пользователем, либо устанавливается системой при регистрации контрдокумента в исходящей почте с типом <u>Ответное</u> и привязкой к текущему документу. В общей таблице писем такой документ подсвечивается <span style='background-color:#e2c9c9'>специальным образом</span>до тех пор пока ответственный по документу на создаст контрдокумент и не привяжет его к текущему как ответный. После того подсветка документа <span style='background-color:#c9e2c9'>меняется</span>.</p><div class='warning'><p>Если поле имеет тип <u>Запрос ответа</u> и недоступно для изменения, то это значит, что тип был установлен автоматически системой при регистрации контрдокумента как <u>Ответное</u> с привязкой к текущему.</p><p>В этом случае сделать это поле снова доступным можно также только со стороны связанного контрдокумента, изменив тип с <u>Ответное</u> на любой другой. При этом тип текущего документа будет изменен на тот, который предшествовал установлению привязки.</p></div>"
+    },
+    "inbox_docRecipient_kodzayvtel": {
+      "label1": "<span class=''>Адресант<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<a class='popoverElemet' tabindex='2' fieldName='popoverContent-inbox_docRecipient_kodzayvtel'>Адресант<sup style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></a>",
+      "field": "mailbox_incoming.inbox_docRecipient_kodzayvtel",
+      "id": "DTE_Field_mailbox_incoming-inbox_docRecipient_kodzayvtel",
+      "popoverTitle": "Адресант документа",
+      "popoverContent": "<p><u>Адресант документа</u> - это официальное лицо компании, на имя которого получен документ (для входящего) или за подписью которого документ отправляется контрагенту (для исходящего).</p>"
+    },
+    "toSendEmail": {
+      "label1": "<span class=''>Уведомить по email<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<a class='popoverElemet' tabindex='3' fieldName='popoverContent-toSendEmail'>Уведомить по email<sup style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></a>",
+      "field": "toSendEmail",
+      "id": "DTE_Field_toSendEmail",
+      "popoverTitle": "Уведомление по email",
+      "popoverContent": "<p>Если выставлен данный чекбокс, то при сохранении нового документа на email каждого из ответственных из списка в поле <u>Выбраны ответственными</u>, будет отправлено информационное письмо о том, что в системе появился документ, по которому данный пользователь является ответственным. При входе в режим редактирования документа данный чекбокс будет снят для блокировки повторной отправки email-уведомления, но если список ответственных будет изменен, то отправка будет повторена независимо от того получал ли ее пользователь ранее.</p>"
+    }, 
+    "inbox_controlIspolCheckoutComment": {
+      "label1": "<span class=''>Комментарий ответственного<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<a class='popoverElemet' tabindex='4' fieldName='popoverContent-inbox_controlIspolCheckoutComment'>Комментарий ответственного<sup style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></a>",
+      "field": "mailbox_incoming.inbox_controlIspolCheckoutComment",
+      "id": "DTE_Field_mailbox_incoming-inbox_controlIspolCheckoutComment",
+      "popoverTitle": "Комментарий ответственного",
+      "popoverContent": "<p>Текст, который вы тут введете, будет добавлен к общему списку (чату) с комментариями по документу с соответствующей пометкой. Посмотреть все комментарии к документу можно кликнув на соответствующую иконку в столбце <u>К</u> общей таблицы с документами. После сохранения комментария данное поле будет очищено, здесь введенный комментарий не сохраняется.</p>"
+    }
+  }
+}

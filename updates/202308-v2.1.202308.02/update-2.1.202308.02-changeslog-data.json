@@ -1,0 +1,15 @@
+{
+  "data": {
+    "updateID_20230802": {
+      "changes_202302": {
+        "updateID": "",
+        "changeID": "",
+        "changeTitle": "",
+        "changeDesc": "",
+        "id": "DTE_Field_mailbox_incoming-inbox_docAbout",
+        "popoverTitle": "Описание документа",
+        "popoverContent": "<p>Просто описание документа. Чем подробнее будет описание, тем информативнее будет запись о документе.</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,272 @@
+/* 
+
+------------------------------------------------------------------
+
+*/
+
+div#link-logChanges:hover {
+  cursor: pointer;
+}
+
+/* 
+
+------------------------------------------------------------------
+
+*/
+
+#modal-logChanges div.modal-dialog {
+  width: 75%;
+  min-width: 1024px;
+  max-width: 1280px;
+  font-size: 12px;
+}
+
+#modal-logChanges div.modal-header {
+  background-color: #1f4b70;
+}
+
+#modal-logChanges div.modal-body {
+  padding: 0;
+}
+
+#modal-logChanges div.modal-body table tbody {
+  font-family: 'Stolzl Book', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #000;
+}
+
+#modal-logChanges div.modal-content {
+  border: 2px solid #1f4b70;
+  border-radius: 0.5rem;
+}
+
+#table-logChanges_wrapper ul.pagination {}
+
+#table-logChanges_wrapper ul.pagination>li>a,
+#table-logChanges_wrapper ul.pagination>li>span {
+  font-size: 0.6rem;
+  color: #343a40;
+  padding: 0.45rem 0.75rem 0.35rem;
+}
+
+#table-logChanges_wrapper ul.pagination>li.page-item.active a.page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+
+#table-logChanges_filter.dataTables_filter input {
+  font-size: 0.7rem;
+  border-color: #08c;
+  height: 1.6rem;
+  padding: 0.2rem 0.6rem 0.2rem;
+}
+
+#table-logChanges_wrapper div.dataTables_info,
+#table-logChanges_filter.dataTables_filter label {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+#table-logChanges_wrapper .dataTables_info {
+  padding-top: 0.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#modal-logChanges div.modal-content {
+  background-color: #fff;
+}
+
+#modal-logChanges div.modal-footer {
+  padding: 10px 15px;
+}
+
+
+
+#table-logChanges>thead>tr>th {
+  font-size: 0.7rem;
+  border-bottom: none;
+  padding: 0.45rem 0.35rem;
+}
+
+#table-logChanges>tbody>tr>td {
+  padding: 4px 0.35rem;
+  border-top: none;
+}
+
+
+#table-logChanges>thead>tr>th:first-child,
+#table-logChanges>tbody>tr>td:first-child {
+  width: 115px;
+  min-width: 115px;
+  max-width: 115px;
+  text-align: left;
+}
+
+#table-logChanges>thead>tr>th:nth-child(2),
+#table-logChanges>tbody>tr>td:nth-child(2) {
+  width: 2%;
+  text-align: center;
+}
+
+#table-logChanges>thead>tr>th:nth-child(3),
+#table-logChanges>tbody>tr>td:nth-child(3) {
+  width: 13%;
+  text-align: left;
+}
+
+#table-logChanges>thead>tr>th:nth-child(4),
+#table-logChanges>tbody>tr>td:nth-child(4) {
+  width: 30%;
+  text-align: left;
+}
+
+#table-logChanges>thead>tr>th:nth-child(5),
+#table-logChanges>tbody>tr>td:nth-child(5) {
+  width: 23%;
+  text-align: left;
+}
+
+#table-logChanges>thead>tr>th:nth-child(6),
+#table-logChanges>tbody>tr>td:nth-child(6) {
+  width: 23%;
+  text-align: left;
+}
+
+#table-logChanges_filter.dataTables_filter {
+  /* margin-top: 4px; */
+  margin-right: 10px;
+  float: left;
+}
+
+
+
+#table-logChanges>tbody>tr>td p.record-title1,
+#table-logChanges>tbody>tr>td p.record-title2,
+#table-logChanges>tbody>tr>td p.record-title3 {
+  line-height: 1.2em;
+  color: #111;
+  font-weight: 700;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+#table-logChanges>tbody>tr>td p.record-title1 span {
+  background-color: #d9edf7;
+  padding: 4px 2px;
+}
+
+#table-logChanges>tbody>tr>td p.record-title2 span {
+  background-color: #f7e9d9;
+  padding: 4px 2px;
+}
+
+#table-logChanges>tbody>tr>td p.record-title3 span {
+  background-color: #fbdcff;
+  padding: 4px 2px;
+}
+
+#table-logChanges>tbody>tr>td p.record-title1.comment span {
+  background-color: #d9edf7;
+}
+
+#table-logChanges>tbody>tr>td p.record-id {
+  margin-bottom: 0;
+}
+
+#table-logChanges>tbody>tr>td p.record-id.comment span {
+  margin-right: 5px;
+}
+
+#table-logChanges>tbody>tr>td p.record-simpletext1 {
+  line-height: 1.0em;
+  font-weight: 200;
+}
+
+#table-logChanges>tbody>tr>td p.record-simpletext1 {
+  line-height: 1.0em;
+  font-weight: 200;
+}
+
+#table-logChanges>tbody>tr>td p.record-oldtext1 {
+  line-height: 1.0em;
+  font-weight: 200;
+  color: #AAA;
+}
+
+#table-logChanges>tbody>tr>td p.record-oldtext1.comment {
+  color: #AAA;
+  text-decoration: line-through;
+  margin-bottom: 2px;
+}
+
+#table-logChanges>tbody>tr>td p.record-new {
+  line-height: 1.0em;
+  font-weight: 200;
+  color: #3c763d;
+}
+
+#table-logChanges>tbody>tr>td p.record-new.mail {
+  color: #111;
+}
+
+#table-logChanges>tbody>tr>td p.record-changes {
+  line-height: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+#table-logChanges>tbody>tr>td p.record-changes>span.old,
+#table-logChanges>tbody>tr>td p.record-changes>span.comment.old {
+  text-decoration: line-through;
+  color: #AAA;
+  margin-right: 5px;
+}
+
+#table-logChanges>tbody>tr>td p.record-new>span.arrows,
+#table-logChanges>tbody>tr>td p.record-changes>span.arrows,
+#table-logChanges>tbody>tr>td p.record-changes>span.comment.arrows,
+#table-logChanges>tbody>tr>td p.record-changes>span.comment.id {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#table-logChanges>tbody>tr>td p.record-changes>span.new,
+#table-logChanges>tbody>tr>td p.record-changes>span.comment.new {
+  color: #3c763d;
+  margin-left: 5px;
+}
+
+#table-logChanges>tbody>tr>td p.record-changes>span.comment.delete {
+  color: #944141;
+}
+
+#table-logChanges>tbody>tr>td p.record-new.comment {
+  line-height: 1.2em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}

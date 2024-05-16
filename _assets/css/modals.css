@@ -1,0 +1,197 @@
+#loadedData-modal .modal-dialog .modal-body h1,
+#loadedData-modal .modal-dialog .modal-body h2,
+#loadedData-modal .modal-dialog .modal-body h3 {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #AAAAAA
+}
+
+#loadedData-modal .modal-dialog .modal-body h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.9rem;
+}
+
+#loadedData-modal .modal-dialog .modal-content.modal-customstyle-1 {
+    background-color: #333 !important;
+    border: 3px solid #333;
+    border-radius: 1rem;
+}
+
+/* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
+
+#userSettings-modal .modal-dialog .modal-body h1,
+#userSettings-modal .modal-dialog .modal-body h2,
+#userSettings-modal .modal-dialog .modal-body h3 {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #AAAAAA
+}
+
+#userSettings-modal .modal-dialog .modal-body h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.9rem;
+}
+
+#userSettings-modal .modal-dialog .modal-content.modal-customstyle-1 {
+    background-color: #333 !important;
+    border: 3px solid #333;
+    border-radius: 1rem;
+}
+
+/* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
+
+#ListMessages-modal .modal-dialog .modal-body h1,
+#ListMessages-modal .modal-dialog .modal-body h2,
+#ListMessages-modal .modal-dialog .modal-body h3 {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #AAAAAA
+}
+
+#ListMessages-modal .modal-dialog .modal-body h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.9rem;
+}
+
+#ListMessages-modal .modal-dialog .modal-content.modal-customstyle-1 {
+    background-color: #333 !important;
+    border: 3px solid #333;
+    border-radius: 1rem;
+}
+
+/* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
+
+#portalCloud-listFiles-modal .modal-dialog .modal-body h1,
+#portalCloud-listFiles-modal .modal-dialog .modal-body h2,
+#portalCloud-listFiles-modal .modal-dialog .modal-body h3 {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #AAAAAA
+}
+
+#portalCloud-listFiles-modal .modal-dialog .modal-body h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.9rem;
+}
+
+#portalCloud-listFiles-modal .modal-dialog .modal-content.modal-customstyle-1 {
+    background-color: #333 !important;
+    border: 3px solid #333;
+    border-radius: 1rem;
+}
+
+/* 
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- 
+ОКНО HELP ДЛЯ ПОИСКА
+>>>>> DARK THEME
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- 
+    */
+.modal-dialog.dark-theme .modal-content {
+    background-color: #F1F1F1 !important;
+    color: #28292A !important;
+}
+
+.modal-dialog.dark-theme .modal-body {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.modal-dialog.dark-theme .modal-body h3.h-3 {
+    font-size: 1.25rem;
+    color: #666666;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.modal-dialog.dark-theme .modal-body .text-accent {
+    color: #f1f1f1;
+}
+
+.modal-dialog.dark-theme .modal-body p {
+    font-size: 0.85rem;
+    color: #AAAAAA;
+    line-height: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.modal-dialog.dark-theme .modal-body ul,
+.modal-dialog.dark-theme .modal-body dt {
+    font-size: 0.85rem;
+    color: #999999;
+    margin-bottom: 0.75rem;
+}
+
+/* ----- ----- ----- ----- -----
+    >>>>> LIGHT THEME
+    */
+.modal-dialog.light-theme .modal-content {
+    background-color: #F1F1F1 !important;
+    color: #28292A !important;
+}
+
+.modal-dialog.light-theme .modal-body {
+    font-family: "Stolzl", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.modal-dialog.light-theme .modal-body h3.h-3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.modal-dialog.light-theme .modal-body .text-accent {
+    color: #74000B;
+}
+
+.modal-dialog.light-theme .modal-body p {
+    font-size: 0.85rem;
+    color: #28292A;
+    line-height: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.modal-dialog.light-theme .modal-body ul {
+    font-size: 0.85rem;
+    color: #495057;
+    margin-bottom: 0.75rem;
+}
+
+.modal-dialog.light-theme .modal-header .modal-title,
+.modal-dialog.light-theme .modal-header .close {
+    color: #28292A;
+}
+
+.modal .modal-header button.close {
+    text-shadow: none;
+    color: #CCCCCC;
+}
+
+
+.modal-header {
+    border-bottom-color: #495057;
+}
+
+.modal-footer {
+    border-top-color: #495057;
+}
+
+.modal-header h5.modal-title {
+    font-family: 'Helioscond', sans-serif;
+    font-size: 1.8rem;
+    color: #CCCCCC;
+}
+
+/* hide scrollbar but allow scrolling */
+#loadedData-help-modal .modal-body,
+#ListMessages-modal .modal-body {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+#loadedData-help-modal .modal-body::-webkit-scrollbar,
+#ListMessages-modal .modal-body::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}

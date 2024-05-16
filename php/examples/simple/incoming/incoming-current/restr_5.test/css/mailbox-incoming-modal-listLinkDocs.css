@@ -1,0 +1,149 @@
+/* 
+
+------------------------------------------------------------------
+
+*/
+
+div#link-listLinkDocs:hover {
+  cursor: pointer;
+}
+
+/* 
+
+------------------------------------------------------------------
+
+*/
+
+#modal-listLinkDocs div.modal-dialog {
+  width: 50%;
+  min-width: 640px;
+  max-width: 800px;
+  font-size: 12px;
+}
+
+#modal-listLinkDocs div.modal-header {
+  background-color: #1f4b70;
+}
+
+#modal-listLinkDocs div.modal-body {
+  padding: 0;
+}
+
+#modal-listLinkDocs div.modal-body table tbody {
+  font-family: 'Stolzl Book', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #000;
+}
+
+#modal-listLinkDocs div.modal-content {
+  border: 2px solid #1f4b70;
+  border-radius: 0.5rem;
+}
+
+
+
+
+
+
+#table-listLinkDocs ul.pagination {}
+
+#table-listLinkDoc_wrapper ul.pagination>li>a,
+#table-listLinkDoc_wrapper ul.pagination>li>span {
+  font-size: 0.6rem;
+  color: #343a40;
+  padding: 0.45rem 0.75rem 0.35rem;
+}
+
+#table-listLinkDoc_wrapper ul.pagination>li.page-item.active a.page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+
+#table-listLinkDoc_filter.dataTables_filter input {
+  font-size: 0.7rem;
+  border-color: #08c;
+  height: 1.6rem;
+  padding: 0.2rem 0.6rem 0.2rem;
+}
+
+#table-listLinkDoc_wrapper div.dataTables_info,
+#table-listLinkDoc_filter.dataTables_filter label {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+#table-listLinkDoc_wrapper .dataTables_info {
+  padding-top: 0.4rem;
+}
+
+
+
+
+
+#modal-listLinkDocs div.modal-content {
+  background-color: #fff;
+}
+
+#modal-listLinkDocs div.modal-footer {
+  padding: 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#table-listLinkDocs>thead>tr>th {
+  font-size: 0.7rem;
+  border-bottom: none;
+  padding: 0.45rem 0.35rem;
+}
+
+#table-listLinkDocs>tbody>tr>td {
+  padding: 4px 0.35rem;
+  border-top: none;
+}
+
+#table-listLinkDocs>thead>tr>th:first-child,
+#table-listLinkDocs>tbody>tr>td:first-child {
+  width: 6%;
+  text-align: left;
+}
+
+#table-listLinkDocs>thead>tr>th:nth-child(2),
+#table-listLinkDocs>tbody>tr>td:nth-child(2) {
+  width: 18%;
+  text-align: left;
+}
+
+#table-listLinkDocs>thead>tr>th:nth-child(3),
+#table-listLinkDocs>tbody>tr>td:nth-child(3) {
+  width: auto;
+  text-align: left;
+}
+
+#table-listLinkDocs>thead>tr>th:nth-child(4),
+#table-listLinkDocs>tbody>tr>td:nth-child(4) {
+  width: 16%;
+  text-align: right;
+}
+
+
+#table-listLinkDocs tbody tr td .link {
+  color: #08c;
+  text-decoration: underline;
+}
+
+#table-listLinkDocs tbody tr td .link:hover {
+  text-decoration: none;
+  cursor: pointer;
+}

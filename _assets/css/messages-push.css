@@ -1,0 +1,92 @@
+div.toast {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #232323 !important;
+    width: 380px;
+    max-width: 520px;
+}
+
+div.toast button.close {
+    text-shadow: none;
+}
+
+div.toast.toast-system .toast-header button.close,
+div.toast.toast-info .toast-header button.close,
+div.toast.toast-warning .toast-header button.close,
+div.toast.toast-danger .toast-header button.close {
+    font-size: 0.95rem;
+    color: #6C757D;
+}
+
+div.toast .toast-header {
+    border: none;
+    padding: 0.45rem 0.75rem;
+}
+
+div.toast.toast-system .toast-header {
+    background-color: #28292A !important;
+    color: #111111 !important;
+}
+
+div.toast.toast-info .toast-header {
+    background-color: #007BFF !important;
+    color: #111111 !important;
+}
+
+div.toast.toast-warning .toast-header {
+    background-color: #B35C0A !important;
+    color: #111111 !important;
+}
+
+div.toast.toast-danger .toast-header {
+    background-color: #6A050E !important;
+    color: #CCCCCC !important;
+}
+
+div.toast.toast-system .toast-body,
+div.toast.toast-info .toast-body,
+div.toast.toast-warning .toast-body,
+div.toast.toast-danger .toast-body {
+    background-color: #232323 !important;
+    margin-bottom: 1rem;
+}
+
+div.toast .toast-body .main-text {
+    color: #FFC107 !important;
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+}
+
+div.toast .toast-body .sub-text1,
+div.toast .toast-body .sub-text2,
+div.toast .toast-body .sub-text3,
+div.toast .toast-body .special-text {
+    color: #AAAAAA !important;
+    font-size: 0.75rem;
+}
+
+div.toast .toast-body .msg-link1 a,
+div.toast .toast-body .msg-link2 a {
+    font-size: 0.75rem;
+    color: #007BFF !important;
+}
+
+div.toast .toast-body .msg-link1 a:hover,
+div.toast .toast-body .msg-link2 a:hover {
+    color: #F1F1F1 !important;
+}
+
+div.toast .toast-body .undermain-text {
+    color: #6C757D !important;
+    font-size: 0.7rem;
+}
+
+div.toast.toast-system .toast-header .header-text,
+div.toast.toast-info .toast-header .header-text,
+div.toast.toast-warning .toast-header .header-text,
+div.toast.toast-danger .toast-header .header-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-right: 2.5rem;
+    color: #FFFFFF;
+}

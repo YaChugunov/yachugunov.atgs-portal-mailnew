@@ -1,0 +1,434 @@
+div.editorform {
+    font-family: 'Stolzl Book', sans-serif;
+    font-size: 1rem;
+    border-top: 2px #343a40 solid;
+    border-bottom: 2px #343a40 solid;
+    border-left: 2px #343a40 solid;
+    border-right: 2px #343a40 solid;
+    /* border-radius: 5px; */
+}
+
+div.editorform .hide {
+    display: none !important;
+}
+
+div.editorform .show {
+    display: initial;
+}
+
+/* 
+>>>>> >>>>> >>>>> HEADER 
+*/
+
+div.DTE div.DTE_Header {
+    border-bottom: none;
+    background-color: #343a40;
+    color: #F1F1F1;
+    padding: 6px 10px 6px 16px;
+}
+
+h3.editorform-header-title {
+    font-family: 'HeliosCond', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding: 0.25rem 0.2rem 0.25rem;
+    margin-bottom: 0;
+    margin-left: -0.5rem;
+}
+
+.modal-header button.close {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #FFF;
+    padding: 0.5rem 0.5rem;
+    margin: 0 -0.5rem -1rem auto;
+    z-index: 2;
+    line-height: 1rem;
+}
+
+.modal-header button.close:hover {
+    cursor: pointer;
+}
+
+/* 
+<<<<< <<<<< <<<<< HEADER 
+*/
+
+
+
+
+div.editorform div.modal-header h5.modal-title {
+    font-family: 'Stolzl', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+div.DTE div.DTE_Processing_Indicator {
+    right: 2rem;
+}
+
+div.DTE div.DTE_Processing_Indicator span,
+div.DTE div.DTE_Processing_Indicator:before,
+div.DTE div.DTE_Processing_Indicator:after {
+    background: #F1F1F1;
+}
+
+div.DTE div.DTE_Body {
+    padding: 0rem;
+    margin-top: 52px;
+}
+
+div.DTE div.DTE_Form_Content {
+    padding: 10px;
+}
+
+div.DTE_Body fieldset div[data-dte-e="msg-error"] {
+    font-size: 0.7rem;
+}
+
+div.DTE_Body fieldset div[data-dte-e="field-processing"] {
+    display: none !important;
+}
+
+/* 
+>>>>> >>>>> >>>>> WIDTH 
+*/
+div.editorform fieldset.field.textbox-inline label[data-dte-e="label"] {}
+
+div.editorform fieldset.field.textbox-inline.input-fitcontent div[data-dte-e="input-control"] input {
+    width: fit-content;
+}
+
+div.editorform.simple {
+    border: none;
+}
+
+div.editorform .w-20 {
+    width: 20% !important;
+}
+
+div.editorform .w-30 {
+    width: 30% !important;
+}
+
+div.editorform .w-40 {
+    width: 40% !important;
+}
+
+div.editorform .w-60 {
+    width: 60% !important;
+}
+
+div.editorform .w-70 {
+    width: 70% !important;
+}
+
+div.editorform .w-80 {
+    width: 80% !important;
+}
+
+div.editorform fieldset.field.checkbox-inline label[data-dte-e="label"] {
+    flex: 0 0 93.444444%;
+    max-width: 93.444444%;
+    padding-top: 0;
+}
+
+div.editorform fieldset.field.checkbox-inline div.DTE_Field_InputControl label {
+    display: none;
+}
+
+div.editorform fieldset.field.checkbox-inline div[data-dte-e="input"] {
+    flex: 0 0 5.888888%;
+    max-width: 5.888888%;
+}
+
+/* 
+<<<<< <<<<< <<<<< WIDTH 
+*/
+div.DTE div.DTE_Field div.DTE_Processing_Indicator {
+    right: 1rem
+}
+
+/* 
+>>>>> >>>>> >>>>> FOOTER 
+*/
+
+div.DTE div.DTE_Footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Stolzl Book', sans-serif;
+    font-size: 0.7rem;
+    position: inherit;
+    height: auto;
+    border-top: none;
+    padding: 4px 6px;
+}
+
+div.DTE div.DTE_Footer div.DTE_Form_Error {
+    display: flex;
+    flex-direction: row;
+    white-space: normal;
+}
+
+div.DTE div.DTE_Footer div.DTE_Form_Buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+div.DTE div.DTE_Footer button {
+    font-family: 'Stolzl', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #fff;
+    background: #343a40;
+    border-color: #343a40;
+    height: 36px;
+    width: 108px;
+    padding: 6px 12px;
+    margin-left: 0.1rem;
+}
+
+div.DTE div.DTE_Footer button:hover {
+    color: #111;
+}
+
+/* 
+<<<<< <<<<< <<<<< FOOTER 
+*/
+
+
+div.editorform-tabs .nav>li>a {
+    color: #fff;
+}
+
+div.editorform-tabs .nav>li>a:focus,
+div.editorform-tabs .nav>li>a:hover {
+    background-color: transparent;
+}
+
+div.editorform-tabs .nav-tabs>li>a.nav-link.active {
+    color: #111 !important;
+    background-color: #fff;
+}
+
+div.editorform-tabs .nav-tabs>li>a:hover {
+    color: #111 !important;
+    background-color: #fff;
+    border-bottom: transparent;
+}
+
+div.editorform-tabs .nav-tabs>li>a::after {
+    background: #f1f1f1;
+}
+
+ul.editorform-tabs-menu>li>a.nav-link {
+    font-family: 'Stolzl', sans-serif;
+    font-size: 0.85rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* Изменено 20.06.2019 --- */
+ul.editorform-tabs-menu {
+    background: #343a40;
+    padding: 0;
+    border-bottom: none;
+}
+
+ul.editorform-tabs-menu>li>a:hover {
+    background-color: #f1f1f1;
+}
+
+
+div.DTE div.DTE_Body div.btn-group button {
+    font-size: 0.75rem;
+}
+
+
+
+div.DTE div.DTE_Body fieldset.field select.form-control {
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+div.editorform fieldset.field div.DTE_Field {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+
+div.editorform fieldset.field div.DTE_Field:hover {
+    background-color: transparent;
+    border: none;
+}
+
+div.editorform fieldset.field div.DTE_Field.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* 
+----- ----- ----- ----- ----- 
+Подписи к элементам формы
+----- ----- ----- ----- ----- 
+*/
+
+div.DTE div.DTE_Body fieldset div.DTE_Field.disabled label,
+div.editorform fieldset.field div.DTE_Field label {
+    color: #333;
+    font-family: 'Stolzl', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0;
+}
+
+div.DTE div.DTE_Body fieldset div.DTE_Field.disabled label {
+    color: #AAA;
+}
+
+div.DTE div.DTE_Body fieldset div.DTE_Field.disabled input:hover {
+    cursor: not-allowed;
+}
+
+div.DTE div.DTE_Body div#ispolStatus_msg_1 {
+    color: #d05024;
+}
+
+div.DTE div.DTE_Body div#ispolStatus_msg_1,
+div.DTE div.DTE_Body fieldset.field div.DTE_Field label div[data-dte-e="msg-label"] {
+    font-family: 'Stolzl', sans-serif;
+    font-size: 0.7rem;
+}
+
+div.DTE div.DTE_Body div#ispolStatus_msg_1 {
+    padding-left: 3.2rem !important;
+    padding-right: 1rem !important;
+}
+
+/* ----- ----- ----- ----- ----- */
+
+
+div.editorform select.form-control,
+div.editorform input.form-control,
+div.editorform textarea.form-control {
+    padding: 4px 6px;
+    font-size: 0.75rem;
+    border: 1px solid #adf;
+}
+
+div.editorform textarea.form-control {
+    resize: none;
+}
+
+
+div.editorform div.section {}
+
+div.editorform div.DTE_Header.modal-header {
+    background-color: #343a40;
+}
+
+div.editorform div.DTE_Header.modal-header h3 {
+    font-family: "Jura", sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+div.editorform div.DTE_Header.modal-header>button.close {
+    color: #ffffff;
+    margin-top: -15px;
+    margin-right: -10px;
+    text-shadow: none;
+    opacity: 1;
+}
+
+div.editorform div.section div.title {
+    margin: 5px 20px;
+    font-family: "HeliosCond", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: none;
+    border-bottom: 1px #343a40 dashed;
+    text-transform: none;
+    color: #343a40;
+    background-color: transparent;
+    letter-spacing: 0.01em;
+}
+
+
+div.editorform fieldset label.control-label {}
+
+div.editorform fieldset label a.popoverElemet {
+    color: #343a40;
+}
+
+div.editorform fieldset label a.popoverElemet:hover {
+    color: #DC3545;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+div.editorform .nav-tabs>li.tab-outgoing-rel>a.nav-link {
+    background-color: #761515 !important;
+    border-bottom: transparent;
+}
+
+div.editorform .nav-tabs>li.tab-outgoing-rel>a.nav-link.active,
+div.editorform .nav-tabs>li.tab-outgoing-rel>a.nav-link:hover {
+    color: #761515 !important;
+    background-color: #FFF !important;
+}
+
+div.editorform div.section div.alert.alert-fadein {
+    opacity: 0;
+    animation: alert-fadein-ani 2.5s forwards;
+}
+
+@keyframes alert-fadein-ani {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+div.editorform div.under-tab-pane-block {
+    display: flex;
+    font-family: 'Stolzl', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #F1F1F1;
+    color: #000;
+}
+
+div.editorform div.tab-pane div.section ul.nav-pills li button {
+    font-size: 0.75rem;
+}
+
+div.editorform div.tab-pane div.section ul.nav-pills li button.nav-link:not(.active):hover {
+    background-color: #F1F1F1;
+    color: #111;
+}
+
+div.editorform div.tab-pane div.section ul.nav-pills li button.nav-link.active:focus,
+div.editorform div.tab-pane div.section ul.nav-pills li button.nav-link:not(.active):focus {
+    box-shadow: none;
+}
+
+div.editorform li a.nav-link.errmsg,
+div.editorform li a.nav-link.errmsg:hover,
+div.editorform li a.nav-link.active.errmsg,
+div.editorform li a.nav-link.active.errmsg:hover {
+    color: #DC3545 !important;
+}

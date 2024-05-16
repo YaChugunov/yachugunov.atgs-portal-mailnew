@@ -1,0 +1,90 @@
+.corner-box {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    /* border: 1px solid #6C757D; */
+    border: 1px solid #161617;
+    transition: all .3s ease;
+}
+
+.corner-box:hover {
+    border-color: #161617;
+}
+
+.corner-box-icons {
+    border: 1px solid #161617;
+}
+
+.corner-box-topC:before,
+.corner-box-topC:after,
+.corner-box-bottomL:before,
+.corner-box-bottomL:after,
+.corner-box-bottomR:before,
+.corner-box-bottomR:after {
+    content: "";
+    z-index: 1;
+    display: block;
+    position: absolute;
+    background: #FAFAFA;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50% 50%;
+}
+
+.corner-box-topL:before,
+.corner-box-topL:after,
+.corner-box-topR:before,
+.corner-box-topR:after,
+.corner-box-bottomC:before,
+.corner-box-bottomC:after {
+    content: "";
+    z-index: 1;
+    display: block;
+    position: absolute;
+    background: #FAFAFA;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50% 50%;
+}
+
+.corner-box:before {
+    width: calc(100% + 4px);
+    height: 80%;
+    transition: height 0.6s;
+}
+
+.corner-box:after {
+    height: calc(100% + 4px);
+    width: 90%;
+    transition: width 0.6s;
+}
+
+.corner-box:hover:before,
+.corner-box:focus:before {
+    height: 50%;
+}
+
+.corner-box:hover:after,
+.corner-box:focus:after {
+    width: 75%;
+}
+
+.corner-textbox {
+    z-index: 2;
+    position: relative;
+}
+
+.card.corner-box-bottomC,
+.card.corner-box-topL,
+.card.corner-box-topR {
+    background: #FAFAFA !important;
+}
+
+.card.corner-box-topC,
+.card.corner-box-bottomL,
+.card.corner-box-bottomR {
+    background: none !important;
+    background-color: #FAFAFA !important;
+}

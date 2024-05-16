@@ -1,0 +1,88 @@
+#customForm-mail-main-inbox div.popoverDivControl,
+#customForm-mail-main-outbox div.popoverDivControl {
+    line-height: 1.5rem;
+}
+
+#customForm-mail-main-inbox div.popoverDivControl label,
+#customForm-mail-main-outbox div.popoverDivControl label {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+body.modal-open .popover {
+    font-size: 11px;
+    min-width: 28.5rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+body.modal-open .popover .popover-header {
+    font-family: 'HeliosCond', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #dc3545;
+}
+
+body.modal-open .popover .popover-body {
+    max-height: 70rem;
+    overflow-y: auto;
+    white-space: pre-wrap;
+}
+
+body.modal-open .popover .popover-body p {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: #666;
+    line-height: 1.15rem;
+    margin-bottom: 0.25rem;
+}
+
+body.modal-open .popover .popover-body h4 {
+    font-family: "Stolzl", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+body.modal-open .popover .popover-body .knoweledge-base-link a {
+    font-size: 0.75rem;
+}
+
+
+div.mail-popover .popover-body {
+    font-size: 11px;
+    text-align: left !important;
+}
+
+div.mail-popover .popover-body h3,
+#divOnlyIspolMe div.mail-popover .popover-body h3,
+#mail-settings-center-block div.mail-popover .popover-body h4,
+#customForm-mail-main-inbox div.mail-popover .popover-body h4,
+#customForm-mail-main-outbox div.mail-popover .popover-body h4,
+#mailnew-incoming-center div.selector-year div.mail-popover .popover-body h4 {
+    font-family: "Stolzl", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+div.mail-popover .popover-body p,
+#divOnlyIspolMe div.mail-popover .popover-body p,
+#mail-settings-center-block div.mail-popover .popover-body p,
+#customForm-mail-main-inbox div.mail-popover .popover-body p,
+#customForm-mail-main-outbox div.mail-popover .popover-body p,
+#mailnew-incoming-center div.selector-year div.mail-popover .popover-body p {
+    font-family: "Stolzl Book", Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: #666;
+    line-height: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+div.mail-popover .popover-body p u,
+#divOnlyIspolMe div.mail-popover .popover-body p u,
+#mail-settings-center-block div.mail-popover .popover-body p u,
+#customForm-mail-main-inbox div.mail-popover .popover-body p u,
+#customForm-mail-main-outbox div.mail-popover .popover-body p u,
+#mailnew-incoming-center div.selector-year div.mail-popover .popover-body p u {
+    color: #111 !important;
+    font-weight: 700;
+    text-decoration: none;
+}

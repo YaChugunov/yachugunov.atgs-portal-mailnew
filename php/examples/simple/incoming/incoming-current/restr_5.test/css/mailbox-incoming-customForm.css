@@ -1,0 +1,262 @@
+#customForm-mail-main-inbox {}
+
+#customForm-mail-main-inbox select.form-control.select2-hidden-accessible {
+  font-family: 'Stolzl Book', sans-serif;
+  font-size: 0.75rem;
+}
+
+span.select2.select2-container.select2-container--default.select2-container--focus {
+  width: 100%;
+}
+
+span.select2-container>span>span.select2-selection {
+  font-size: 13px;
+  text-align: left;
+  height: 32px;
+}
+
+.select2-results__option {
+  font-family: 'Stolzl Book', sans-serif;
+  padding: 4px 8px;
+  line-height: 1.2em;
+}
+
+#select2-DTE_Field_mailbox_incoming-inbox_docSender_kodzakaz-container {
+  line-height: 30px;
+  text-align: left;
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+  font-family: 'Stolzl Book', sans-serif;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 13px;
+  line-height: 1em;
+}
+
+span.select2-container>span.selection>span.select2-selection>span.select2-selection__arrow {
+  height: 28px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  max-width: 920px;
+}
+
+.select2-container--default .select2-selection--single {
+  border: 1px solid #0446f9;
+}
+
+.select2-container--open .select2-dropdown--below {
+  border-color: #0446f9;
+}
+
+#customForm-mail-main-inbox div.alert {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+#customForm-mail-main-inbox fieldset.field div.DTE_Field_Name_enbl_outbox_docType_change,
+#customForm-mail-main-inbox fieldset.field div.DTE_Field_Name_enbl_outbox_rowIDadd_rel,
+#customForm-mail-main-inbox fieldset.field div.inbox_controlIspolActive,
+#customForm-mail-main-inbox fieldset.field div.inbox_controlIspolUseDeadline,
+#customForm-mail-main-inbox fieldset.field div.inbox_controlIspolMailReminder1,
+#customForm-mail-main-inbox fieldset.field div.inbox_controlIspolMailReminder2,
+#customForm-mail-main-inbox fieldset.field div.DTE_Field_Name_ispolStatus {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#customForm-mail-main-inbox fieldset.field div.DTE_Field_Type_checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+}
+
+#customForm-mail-main-inbox fieldset.field.docFileID div.DTE_Field label[data-dte-e="label"] {
+  display: none;
+}
+
+#customForm-mail-main-inbox div.mainFile fieldset.field.docFileID div[data-dte-e="label"] {
+  display: none;
+}
+
+#customForm-mail-main-inbox div.mainFile fieldset.field.docFileID div[data-dte-e="input"] {
+  flex: 0 0 99.999999%;
+  max-width: 99.999999%;
+}
+
+
+#customForm-mail-main-inbox div.addFiles {
+  padding: 8px 20px;
+}
+
+#customForm-mail-main-inbox div.addFiles div#uploadFiles-result,
+#customForm-mail-main-inbox div.addFiles div#listFiles-result {
+  margin-top: 10px;
+  overflow-wrap: anywhere;
+  text-align: left;
+  line-height: 1.2rem;
+  font-size: 0.8rem
+}
+
+div.lnkDocFileID span.attached-file-temporary {
+  color: #ffc800;
+  font-size: 0.9em;
+}
+
+div.lnkDocFileID span.attached-file-clipped {
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+div.lnkDocFileID span.remove-mainfile {
+  color: #f00;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+#uploadFiles-result>p>span.remove-file,
+#listFiles-result table span.remove-file {
+  color: #f00;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+div.lnkDocFileID span.remove-mainfile:hover {
+  cursor: pointer;
+}
+
+#uploadFiles-result>p>span.remove-file:hover,
+#listFiles-result table span.remove-file:hover {
+  cursor: pointer;
+}
+
+#mainFile div.rendered,
+div.lnkDocFileID span.attached-filelink {
+  padding: 0 !important;
+  overflow-wrap: anywhere;
+  line-height: 1.2rem;
+  font-size: 0.8rem
+}
+
+#customForm-mail-main-inbox div.addFiles fieldset.field.docFileID input[id="js-file"] {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+#mainFile fieldset div.DTE_Field_InputControl div.eu_table {
+  width: 50%;
+}
+
+select#DTE_Field_mailbox_incoming-inbox_docContractor_kodzayvispol {
+  min-height: 10.5rem;
+}
+
+input#DTE_Field_mailbox_incoming-msgDocFileID {
+  text-align: center;
+  background-color: white;
+  color: #d9534f;
+  border: 2px solid #d9534f;
+  border-radius: 8px;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+}
+
+#ispol-selected-str {
+  margin-top: -0.4rem;
+  margin-bottom: 1rem;
+  line-height: 1.0rem;
+}
+
+#ispol-selected-str span.inftext,
+#ispol-selected-str span.errtext {
+  font-family: 'Stolzl', sans-serif;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+#ispol-selected-str span.errtext {
+  color: #D05024;
+}
+
+#ispol-selected-str span.inftext {
+  color: #1E7C3B;
+}
+
+
+
+
+
+table.table.table-listattachments-inform td {
+  padding: 0.25rem 0.5rem;
+  text-align: left;
+  border-top: none;
+}
+
+table.table.table-listattachments-inform td:first-child,
+table.table.table-listattachments-inform td:last-child {
+  width: 1rem;
+  max-width: 2rem;
+  text-align: center;
+}
+
+#outbox-setCheckout-alert fieldset input {
+  position: relative;
+  left: -1.5rem;
+}
+
+#outbox-setCheckout-alert fieldset label {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  top: -2px;
+  left: -3rem;
+}
+
+#customForm-mail-main-inbox .section-block {}
+
+#customForm-mail-main-inbox .section-block h4.section-title {
+  font-family: 'Stolzl', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+
+#customForm-mail-main-inbox div.DTE_Field_Name_enblSenderManual {
+  flex-flow: row;
+  justify-content: start !important;
+  /* padding-top: 10px !important;
+  margin-left: -25px; */
+}
+
+#customForm-mail-main-inbox div.DTE_Field_Name_enblSenderManual div.input {
+  /* padding-left: 0 !important; */
+}
+
+#customForm-mail-main-inbox div.DTE_Field_Name_enblSenderManual input[id="DTE_Field_enblSenderManual_0"] {
+  margin-top: 3px;
+}
+
+#customForm-mail-main-inbox span.itemPopover a {
+  font-size: 0.65rem !important;
+  font-weight: 200 !important;
+}
+
+
+#sender-manualinput-alert .tooltip,
+#sender-manualinput-alert .popover {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  min-width: 200px !important;
+  max-width: 250px !important;
+}
+
+/* .tooltip-arrow,
+.itemPopover+.tooltip>.tooltip-inner {
+  background-color: antiquewhite;
+  color: #0446f9;
+} */

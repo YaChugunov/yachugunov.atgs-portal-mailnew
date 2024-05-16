@@ -1,0 +1,56 @@
+/* Preloader
+----------------------------------------------- */
+#before-load {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 1001;
+}
+
+#before-load i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -35px 0 0 -35px;
+}
+
+#before-load i {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url('../images/loading2.gif') no-repeat 50% 50%;
+    margin: -35px 0 0 -35px;
+}
+
+
+
+.container-psize {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media (min-width: 1399.98px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-psize {
+        max-width: 1340px;
+    }
+}
+
+
+#servicename-mailnew .vh-content {
+    min-height: calc(100vh - 325px);
+}

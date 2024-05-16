@@ -1,0 +1,78 @@
+/*
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- 
+Стилизация формы вывода детальной информации
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- 
+*/
+
+div.detailsBlock {
+    font-size: 0.75rem;
+}
+
+div.detailsBlock div.section div.title {
+    margin: 5px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-bottom: 1px #343a40 dashed;
+    text-transform: none;
+    background-color: transparent;
+}
+
+div.detailsBlock ul.nav-tabs {
+    background-color: #FFF;
+    border-bottom: none;
+}
+
+div.detailsBlock ul.nav-tabs a.nav-link {
+    border: none;
+    background-color: #FFF;
+    text-decoration: underline;
+}
+
+div.detailsBlock ul.nav-tabs a.nav-link:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.detailsBlock .nav-tabs .nav-link.active,
+div.detailsBlock .nav-tabs .nav-item.show .nav-link {
+    color: #49AAEE !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+div.detailsBlock .tab-content {
+    min-height: 8.0rem;
+}
+
+div.detailsBlock .tab-content h3.title {
+    color: #000;
+    font-family: 'HeliosCond', sans-serif;
+    font-size: 2.15rem;
+    font-weight: 700;
+}
+
+div.detailsBlock .tab-content h4.subtitle {
+    color: #333;
+    font-family: 'HeliosCond', sans-serif;
+    font-size: 1.45rem;
+    font-weight: 700;
+}
+
+div.detailsBlock .tab-content .profile-header {
+    border-radius: 6px;
+    background-color: rgb(243 173 46 / 20%);
+}
+
+div.detailsBlock .tab-content .profile-header a.stretched-link:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+div.detailsBlock div.section table th {
+    padding: 0.45rem 0.75rem;
+}
+
+div.detailsBlock div.section table td {
+    padding: 0.45rem 0.75rem;
+}

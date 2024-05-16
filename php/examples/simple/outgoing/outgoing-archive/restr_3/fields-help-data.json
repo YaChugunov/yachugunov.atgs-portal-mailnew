@@ -1,0 +1,28 @@
+{
+  "data": {
+    "outbox_docAbout": {
+      "label1": "<span class=''>Тема<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<a class='popoverElemet' tabindex='0' fieldName='popoverContent-outbox_docAbout'>Тема<sup style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></a>",
+      "field": "mailbox_outgoing.outbox_docAbout",
+      "id": "DTE_Field_mailbox_outgoing-outbox_docAbout",
+      "popoverTitle": "Описание документа",
+      "popoverContent": "You can find all of the options in the language files provided in the build. They all must be functions that return the string that should be displayed."
+    }, 
+    "outbox_docType": {
+      "label1": "<span class=''>Тип<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<a class='popoverElemet' tabindex='1' fieldName='popoverContent-outbox_docType'>Тип<sup style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></a>",
+      "field": "mailbox_outgoing.outbox_docType",
+      "id": "DTE_Field_mailbox_outgoing-outbox_docType",
+      "popoverTitle": "Тип документа",
+      "popoverContent": "<p><b>Общее, Информационное</b> - это обычные и стандартные типы документов для стандартных документов корпоративной переписки. Никаких принципиальных различий между этими двумя типами на текущий момент нет. На усмотрение пользователя.</p><p><b>Ответное</b> - этот тип документа используется для письма, являющегося ответом на официальный запрос, с однозначной привязкой к контрдокументу и смено типа последнего на <u>Запрос ответа</u>. Либо таковым образом маркируется документ, который можно рассматривать как ответ или комментарий к контрдокументу, но без однозначной привязки и сменой типа последнего.</p><p><b>Запрос ответа</b> - этот тип документа используется в случае, когда ожидается или даже требуется официальный ответ от контрагента.</p><p>Этот тип документа выставляется вручную пользователем, либо устанавливается системой при регистрации контрдокумента в исходящей почте с типом <u>Ответное</u> и привязкой к текущему документу. В общей таблице писем такой документ подсвечивается <span style='background-color:#e2c9c9'>специальным образом</span>до тех пор пока ответственный по документу на создаст контрдокумент и не привяжет его к текущему как ответный. После того подсветка документа <span style='background-color:#c9e2c9'>меняется</span>.</p><div class='warning'><p>Если поле имеет тип <u>Запрос ответа</u> и недоступно для изменения, то это значит, что тип был установлен автоматически системой при регистрации контрдокумента как <u>Ответное</u> с привязкой к текущему.</p><p>В этом случае сделать это поле снова доступным можно также только со стороны связанного контрдокумента, изменив тип с <u>Ответное</u> на любой другой. При этом тип текущего документа будет изменен на тот, который предшествовал установлению привязки.</p></div>"
+    },
+    "outbox_docSender_kodzayvtel": {
+      "label1": "<span class=''>Подписант<sup style='color:transparent; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></span>",
+      "label2": "<a class='popoverElemet' tabindex='2' fieldName='popoverContent-outbox_docSender_kodzayvtel'>Подписант<sup style='color:#dc3545; padding:0 3px'><i class='fa fa-exclamation-circle' aria-hidden='true'></i></sup></a>",
+      "field": "mailbox_outgoing.outbox_docSender_kodzayvtel",
+      "id": "DTE_Field_mailbox_outgoing-outbox_docSender_kodzayvtel",
+      "popoverTitle": "Подписант документа",
+      "popoverContent": "<p><b>Подписант документа</b> - это официальное лицо компании, за подписью которого отправляется документ (для исходящего) или на имя которого документ получен (для входящего).</p>"
+    }
+  }
+}
