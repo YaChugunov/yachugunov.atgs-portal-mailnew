@@ -1,0 +1,7 @@
+https://github.com/YaChugunov/yachugunov.atgs-portal-mailnew
+
+-----
+
+git remote add github-mail https://yachugunov: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@github.com/YaChugunov/yachugunov.atgs-portal-mailnew
+
+
